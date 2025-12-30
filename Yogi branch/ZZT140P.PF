@@ -1,0 +1,30 @@
+     A*****************************************************************
+     A*    PROJECT       :セントラルフルーツ販売管理システム        *
+     A*    FILE-ID       : HBT140P                                    *
+     A*    DESCRIPTION   :請求データ                                *
+     A*    AUTHOR        : DMK                                        *
+     A*    CREATION-DATE : 1999.05.07                                 *
+     A*    MODIFIED-DATE : 1999.05.18                                 *
+     A*    TEXT          :                                            *
+     A*****************************************************************
+     A                                      UNIQUE
+     A          R TPREC
+     A*
+     A            TP010          6S 0       COLHDG('取引先コード')
+     A            TP020          8S 0       COLHDG('締め日')
+     A            TP02K          8S 0       COLHDG('回収日')
+     A            TP030         11P 0       COLHDG('前回支払額')
+     A            TP040         11P 0       COLHDG('支払済金額')
+     A            TP050         11P 0       COLHDG('仕入額')
+     A            TP05H         11P 0       COLHDG('返品額')
+     A            TP05N         11P 0       COLHDG('値引き')
+     A            TP05T         11P 0       COLHDG('調整額')
+     A            TP05Z         11P 0       COLHDG('消費税')
+     A            TP060         11P 0       COLHDG('今回支払額')
+     A            TP070         11P 0       COLHDG('前月支払残')
+     A            TP080          1S 0       COLHDG('支払明細書発行FLG')
+     A            TP200          1S 0       COLHDG('締日更新Ｆ')
+     A            TP210          1S 0       COLHDG('月次更新Ｆ')
+     A*
+     A          K TP010
+     A          K TP020

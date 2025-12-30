@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="ED_JUCHU"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{FE1D5093-EC19-457D-8027-6793198E7A6C}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="13030.00"/>
+    <ReferencedProjects>
+      <RefProject FileName="ED_DATA\ED_DATA.edp" ProjectName="ED_DATA"/>
+    </ReferencedProjects>
+  </_Project>
+
+</Application>

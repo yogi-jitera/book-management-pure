@@ -1,0 +1,473 @@
+date,region,store_id,product_category,product_id,product_name,unit_price,units_sold,total_sales,customer_type,marketing_campaign,discount_percentage,customer_satisfaction,temperature,day_of_week,holiday,inventory_level,profit_margin,shipping_cost,vendor_id
+2023-01-01,North,102,Electronics,E001,Smartphone X,699.99,12,8399.88,Regular,Yes,5,4.2,28,Sunday,Yes,85,24.5,15.99,V001
+2023-01-01,South,201,Home,H043,Coffee Maker,89.99,31,2789.69,Regular,No,0,3.9,35,Sunday,Yes,54,18.2,5.99,V003
+2023-01-01,East,304,Clothing,C118,Winter Jacket,129.95,8,1039.60,Premium,Yes,10,4.7,12,Sunday,Yes,42,32.1,0.00,V002
+2023-01-01,West,405,Electronics,E015,Bluetooth Speaker,49.99,23,1149.77,Regular,Yes,0,4.1,19,Sunday,Yes,112,22.3,3.99,V005
+2023-01-01,North,105,Grocery,G201,Organic Coffee,14.99,47,704.53,Regular,No,0,4.3,27,Sunday,Yes,185,15.6,0.00,V008
+2023-01-01,South,204,Electronics,E042,Laptop Pro,1299.99,5,6499.95,Premium,Yes,8,4.6,33,Sunday,Yes,18,21.8,0.00,V001
+2023-01-01,East,307,Beauty,B073,Facial Cleanser,24.50,19,465.50,Regular,No,0,3.8,14,Sunday,Yes,63,28.4,2.99,V010
+2023-01-01,West,402,Home,H012,Blender,79.95,14,1119.30,Regular,Yes,15,4.4,18,Sunday,Yes,28,19.7,4.99,V003
+2023-01-02,North,101,Clothing,C045,Running Shoes,89.99,9,809.91,Regular,No,0,4.0,26,Monday,No,37,26.5,0.00,V002
+2023-01-02,South,203,Beauty,B021,Perfume Set,59.99,21,1259.79,Premium,Yes,5,4.5,34,Monday,No,42,32.8,3.99,V010
+2023-01-02,East,301,Electronics,E007,Headphones,129.99,17,2209.83,Regular,No,0,4.2,15,Monday,No,56,24.1,3.99,V001
+2023-01-02,West,404,Grocery,G105,Premium Chocolate,8.99,63,566.37,Regular,Yes,0,3.9,20,Monday,No,142,18.3,0.00,V008
+2023-01-02,North,103,Home,H033,Air Purifier,199.95,6,1199.70,Premium,No,0,4.6,25,Monday,No,18,25.7,9.99,V003
+2023-01-02,South,202,Clothing,C087,Dress Shirt,45.50,28,1274.00,Regular,Yes,10,4.0,36,Monday,No,73,21.3,0.00,V002
+2023-01-02,East,302,Beauty,B064,Face Mask Set,19.99,42,839.58,Regular,No,5,3.7,13,Monday,No,96,29.5,2.99,V010
+2023-01-02,West,401,Electronics,E036,Tablet Mini,349.99,11,3849.89,Premium,Yes,8,4.4,21,Monday,No,22,20.2,0.00,V001
+2023-01-03,North,104,Beauty,B012,Moisturizer,29.95,36,1078.20,Regular,No,0,4.1,28,Tuesday,No,58,31.2,0.00,V010
+2023-01-03,South,205,Electronics,E022,Smart Watch,199.99,13,2599.87,Premium,Yes,5,4.7,34,Tuesday,No,34,23.6,0.00,V001
+2023-01-03,East,305,Grocery,G078,Organic Pasta,4.99,87,434.13,Regular,No,0,3.8,16,Tuesday,No,215,12.8,0.00,V008
+2023-01-03,West,403,Clothing,C132,Designer Jeans,89.95,18,1619.10,Regular,Yes,15,4.3,19,Tuesday,No,45,27.9,3.99,V002
+2023-01-03,North,105,Home,H051,Robot Vacuum,299.99,7,2099.93,Premium,No,0,4.5,27,Tuesday,No,12,18.4,0.00,V003
+2023-01-03,South,201,Beauty,B037,Hair Dryer,49.95,24,1198.80,Regular,Yes,10,3.9,35,Tuesday,No,38,25.3,2.99,V010
+2023-01-03,East,303,Electronics,E009,Bluetooth Earbuds,79.99,31,2479.69,Regular,No,0,4.2,14,Tuesday,No,47,22.7,0.00,V001
+2023-01-03,West,405,Grocery,G156,Premium Tea,12.99,53,688.47,Regular,Yes,5,4.0,20,Tuesday,No,124,16.8,0.00,V008
+2023-01-04,North,102,Clothing,C023,Winter Gloves,24.99,42,1049.58,Regular,No,0,3.8,26,Wednesday,No,83,24.1,0.00,V002
+2023-01-04,South,204,Home,H019,Coffee Table,149.95,9,1349.55,Premium,Yes,8,4.6,33,Wednesday,No,21,19.8,15.99,V003
+2023-01-04,East,306,Beauty,B048,Makeup Kit,39.99,27,1079.73,Regular,No,5,4.3,15,Wednesday,No,52,30.6,2.99,V010
+2023-01-04,West,402,Electronics,E031,Gaming Console,399.99,6,2399.94,Premium,Yes,0,4.7,18,Wednesday,No,14,17.5,0.00,V001
+2023-01-04,North,101,Grocery,G092,Specialty Snacks,9.99,68,679.32,Regular,No,0,3.9,28,Wednesday,No,176,14.9,0.00,V008
+2023-01-04,South,203,Clothing,C075,Athletic Shorts,34.95,23,803.85,Regular,Yes,10,4.1,36,Wednesday,No,61,23.7,0.00,V002
+2023-01-04,East,301,Home,H027,Toaster Oven,69.99,16,1119.84,Regular,No,0,4.0,13,Wednesday,No,32,20.5,4.99,V003
+2023-01-04,West,404,Beauty,B059,Skincare Set,89.99,12,1079.88,Premium,Yes,15,4.5,19,Wednesday,No,28,29.8,0.00,V010
+2023-01-05,North,103,Electronics,E017,Wireless Charger,29.99,37,1109.63,Regular,No,0,4.2,27,Thursday,No,65,21.9,0.00,V001
+2023-01-05,South,202,Grocery,G113,Gourmet Cookies,7.99,82,655.18,Regular,Yes,5,3.8,34,Thursday,No,193,13.4,0.00,V008
+2023-01-05,East,304,Clothing,C096,Casual Shirt,39.95,29,1158.55,Regular,No,0,4.0,16,Thursday,No,58,25.6,0.00,V002
+2023-01-05,West,401,Home,H038,Stand Mixer,249.99,8,1999.92,Premium,Yes,8,4.7,20,Thursday,No,15,22.3,9.99,V003
+2023-01-05,North,105,Beauty,B015,Shampoo Set,19.99,43,859.57,Regular,No,0,3.9,26,Thursday,No,87,27.1,0.00,V010
+2023-01-05,South,205,Electronics,E028,Digital Camera,299.95,7,2099.65,Premium,Yes,10,4.5,33,Thursday,No,19,19.8,0.00,V001
+2023-01-05,East,307,Grocery,G045,Organic Cereal,6.99,76,531.24,Regular,No,0,4.1,14,Thursday,No,168,15.2,0.00,V008
+2023-01-05,West,403,Clothing,C108,Designer Belt,49.99,21,1049.79,Regular,Yes,5,4.3,19,Thursday,No,42,28.4,0.00,V002
+2023-01-06,North,104,Home,H007,Kitchen Knife Set,79.95,18,1439.10,Regular,No,0,4.4,25,Friday,No,36,21.7,4.99,V003
+2023-01-06,South,201,Beauty,B032,Nail Polish Set,14.99,54,809.46,Regular,Yes,15,3.7,36,Friday,No,112,30.2,0.00,V010
+2023-01-06,East,302,Electronics,E014,Portable Speaker,59.99,25,1499.75,Regular,No,0,4.2,15,Friday,No,48,23.5,3.99,V001
+2023-01-06,West,405,Grocery,G129,Premium Coffee,16.99,62,1053.38,Regular,Yes,5,4.0,21,Friday,No,145,16.8,0.00,V008
+2023-01-06,North,102,Clothing,C053,Winter Scarf,19.95,47,937.65,Regular,No,0,3.8,27,Friday,No,95,24.9,0.00,V002
+2023-01-06,South,204,Home,H022,Floor Lamp,89.99,14,1259.86,Premium,Yes,8,4.6,34,Friday,No,27,20.3,7.99,V003
+2023-01-06,East,306,Beauty,B041,Face Serum,34.99,32,1119.68,Regular,No,0,4.4,13,Friday,No,64,29.7,0.00,V010
+2023-01-06,West,402,Electronics,E019,Smart Speaker,129.99,19,2469.81,Premium,Yes,10,4.5,18,Friday,No,31,18.9,0.00,V001
+2023-01-07,North,101,Grocery,G087,Artisan Bread,5.99,93,557.07,Regular,No,0,4.1,26,Saturday,No,208,12.5,0.00,V008
+2023-01-07,South,203,Clothing,C067,Running Shorts,29.99,38,1139.62,Regular,Yes,5,4.0,35,Saturday,No,76,26.3,0.00,V002
+2023-01-07,East,301,Home,H016,Blender Set,119.95,13,1559.35,Regular,No,0,4.3,16,Saturday,No,29,19.4,4.99,V003
+2023-01-07,West,404,Beauty,B025,Perfume,79.99,21,1679.79,Premium,Yes,15,4.7,20,Saturday,No,47,31.5,0.00,V010
+2023-01-07,North,103,Electronics,E005,Noise Cancelling Headphones,199.99,11,2199.89,Premium,No,0,4.6,25,Saturday,No,24,22.8,0.00,V001
+2023-01-07,South,202,Grocery,G063,Premium Chips,3.99,127,506.73,Regular,Yes,0,3.8,36,Saturday,No,253,14.1,0.00,V008
+2023-01-07,East,304,Clothing,C091,Sweater,59.95,26,1558.70,Regular,No,0,4.2,14,Saturday,No,52,25.9,0.00,V002
+2023-01-07,West,401,Home,H031,Air Fryer,99.99,17,1699.83,Regular,Yes,8,4.5,19,Saturday,No,33,21.2,5.99,V003
+2023-01-08,North,105,Beauty,B018,Body Lotion,15.99,58,927.42,Regular,No,0,3.9,27,Sunday,Yes,114,28.6,0.00,V010
+2023-01-08,South,205,Electronics,E024,Wireless Earbuds,89.99,24,2159.76,Regular,Yes,5,4.3,33,Sunday,Yes,46,20.7,0.00,V001
+2023-01-08,East,307,Grocery,G074,Organic Juice,7.49,83,621.67,Regular,No,0,4.0,15,Sunday,Yes,176,13.8,0.00,V008
+2023-01-08,West,403,Clothing,C115,Designer Sunglasses,149.95,9,1349.55,Premium,Yes,10,4.8,18,Sunday,Yes,21,29.4,0.00,V002
+2023-01-08,North,104,Home,H009,Cookware Set,199.99,7,1399.93,Premium,No,0,4.6,26,Sunday,Yes,16,18.5,9.99,V003
+2023-01-08,South,201,Beauty,B034,Hair Styling Kit,49.95,19,949.05,Regular,Yes,15,4.1,35,Sunday,Yes,45,30.8,2.99,V010
+2023-01-08,East,302,Electronics,E011,Smart Home Hub,129.99,13,1689.87,Regular,No,0,4.4,14,Sunday,Yes,27,21.6,0.00,V001
+2023-01-08,West,405,Grocery,G097,Premium Chocolate,11.99,67,803.33,Regular,Yes,5,3.9,20,Sunday,Yes,158,15.7,0.00,V008
+2023-01-09,North,102,Clothing,C047,Winter Hat,17.95,52,933.40,Regular,No,0,3.7,25,Monday,No,105,23.4,0.00,V002
+2023-01-09,South,204,Home,H024,Desk Lamp,39.99,23,919.77,Regular,Yes,8,4.2,34,Monday,No,48,20.9,3.99,V003
+2023-01-09,East,306,Beauty,B046,Face Wash,21.99,41,901.59,Regular,No,0,4.0,16,Monday,No,82,27.3,0.00,V010
+2023-01-09,West,402,Electronics,E033,Portable Hard Drive,79.99,18,1439.82,Regular,Yes,10,4.3,19,Monday,No,35,19.5,0.00,V001
+2023-01-09,North,101,Grocery,G083,Specialty Pasta,4.49,112,502.88,Regular,No,0,3.8,27,Monday,No,227,12.9,0.00,V008
+2023-01-09,South,203,Clothing,C071,Athletic Shoes,79.95,14,1119.30,Premium,Yes,5,4.5,35,Monday,No,32,26.8,0.00,V002
+2023-01-09,East,301,Home,H013,Food Processor,149.99,9,1349.91,Regular,No,0,4.4,13,Monday,No,21,18.7,6.99,V003
+2023-01-09,West,404,Beauty,B051,Makeup Brush Set,29.99,34,1019.66,Regular,Yes,15,4.1,20,Monday,No,67,31.2,0.00,V010
+2023-01-10,North,103,Electronics,E002,Tablet Pro,499.99,6,2999.94,Premium,No,0,4.7,26,Tuesday,No,15,21.3,0.00,V001
+2023-01-10,South,202,Grocery,G125,Premium Cookies,8.49,78,662.22,Regular,Yes,0,3.9,33,Tuesday,No,164,14.6,0.00,V008
+2023-01-10,East,304,Clothing,C093,Business Suit,249.95,5,1249.75,Premium,No,0,4.6,15,Tuesday,No,12,28.2,0.00,V002
+2023-01-10,West,401,Home,H035,Stand Mixer Pro,299.99,6,1799.94,Premium,Yes,8,4.8,19,Tuesday,No,14,22.5,9.99,V003
+2023-01-10,North,105,Beauty,B022,Hair Treatment,24.99,39,974.61,Regular,No,0,4.0,25,Tuesday,No,78,29.4,0.00,V010
+2023-01-10,South,205,Electronics,E026,Gaming Mouse,59.99,22,1319.78,Regular,Yes,5,4.3,35,Tuesday,No,43,19.8,0.00,V001
+2023-01-10,East,307,Grocery,G059,Organic Snacks,6.99,91,636.09,Regular,No,0,4.1,14,Tuesday,No,183,13.2,0.00,V008
+2023-01-10,West,403,Clothing,C112,Designer Tie,39.95,17,679.15,Regular,Yes,10,4.4,18,Tuesday,No,36,27.6,0.00,V002
+2023-01-11,North,104,Home,H005,Knife Block,69.99,15,1049.85,Regular,No,0,4.5,27,Wednesday,No,31,19.3,4.99,V003
+2023-01-11,South,201,Beauty,B029,Nail Care Kit,19.99,47,939.53,Regular,Yes,15,3.8,34,Wednesday,No,95,30.5,0.00,V010
+2023-01-11,East,302,Electronics,E008,Bluetooth Speaker,89.99,19,1709.81,Regular,No,0,4.2,16,Wednesday,No,38,21.9,3.99,V001
+2023-01-11,West,405,Grocery,G121,Gourmet Coffee,15.49,59,914.41,Regular,Yes,5,4.3,20,Wednesday,No,128,16.4,0.00,V008
+2023-01-11,North,102,Clothing,C049,Wool Socks,12.95,73,945.35,Regular,No,0,3.9,26,Wednesday,No,154,24.7,0.00,V002
+2023-01-11,South,204,Home,H026,Coffee Maker Pro,129.99,11,1429.89,Premium,Yes,8,4.7,33,Wednesday,No,24,21.1,5.99,V003
+2023-01-11,East,306,Beauty,B043,Facial Toner,18.99,51,968.49,Regular,No,0,4.0,15,Wednesday,No,103,28.9,0.00,V010
+2023-01-11,West,402,Electronics,E021,Wireless Mouse,39.99,27,1079.73,Regular,Yes,10,4.1,19,Wednesday,No,54,20.3,0.00,V001
+2023-01-12,North,101,Grocery,G079,Artisan Cheese,8.99,85,764.15,Regular,No,0,4.2,25,Thursday,No,172,15.1,0.00,V008
+2023-01-12,South,203,Clothing,C065,Running Jacket,69.95,16,1119.20,Regular,Yes,5,4.4,36,Thursday,No,35,26.5,0.00,V002
+2023-01-12,East,301,Home,H011,Toaster,49.99,21,1049.79,Regular,No,0,3.8,14,Thursday,No,45,18.9,3.99,V003
+2023-01-12,West,404,Beauty,B019,Moisturizer Set,54.99,18,989.82,Premium,Yes,15,4.6,21,Thursday,No,37,31.7,0.00,V010
+2023-01-12,North,103,Electronics,E004,Smart TV,699.99,4,2799.96,Premium,No,0,4.8,27,Thursday,No,9,20.7,0.00,V001
+2023-01-12,South,202,Grocery,G039,Premium Nuts,9.99,76,759.24,Regular,Yes,0,4.0,34,Thursday,No,153,14.8,0.00,V008
+2023-01-12,East,304,Clothing,C089,Casual Pants,49.95,22,1098.90,Regular,No,0,4.1,16,Thursday,No,47,25.3,0.00,V002
+2023-01-12,West,401,Home,H033,Vacuum Cleaner,159.99,8,1279.92,Regular,Yes,8,4.5,20,Thursday,No,19,22.6,7.99,V003
+2023-01-13,North,105,Beauty,B014,Hair Shampoo,16.99,61,1036.39,Regular,No,0,3.9,26,Friday,No,123,28.1,0.00,V010
+2023-01-13,South,205,Electronics,E023,Game Controller,49.99,25,1249.75,Regular,Yes,5,4.4,33,Friday,No,51,19.4,0.00,V001
+2023-01-13,East,307,Grocery,G071,Organic Fruits,7.99,96,767.04,Regular,No,0,4.2,15,Friday,No,193,13.5,0.00,V008
+2023-01-13,West,403,Clothing,C107,Designer Scarf,79.95,12,959.40,Premium,Yes,10,4.7,19,Friday,No,26,29.8,0.00,V002
+2023-01-13,North,104,Home,H003,Cookware,119.99,9,1079.91,Regular,No,0,4.3,25,Friday,No,22,19.7,6.99,V003
+2023-01-13,South,201,Beauty,B027,Hair Styling Tool,89.99,14,1259.86,Premium,Yes,15,4.5,36,Friday,No,29,30.3,2.99,V010
+2023-01-13,East,302,Electronics,E010,Portable Charger,29.99,43,1289.57,Regular,No,0,4.0,14,Friday,No,87,21.2,0.00,V001
+2023-01-13,West,405,Grocery,G095,Premium Tea,10.49,72,755.28,Regular,Yes,5,3.9,20,Friday,No,147,15.9,0.00,V008
+2023-01-14,North,102,Clothing,C043,Winter Boots,99.99,11,1099.89,Regular,No,0,4.4,27,Saturday,No,25,24.3,0.00,V002
+2023-01-14,South,204,Home,H028,Microwave,149.95,7,1049.65,Regular,Yes,8,4.1,34,Saturday,No,16,20.5,8.99,V003
+2023-01-14,East,306,Beauty,B039,Face Mask,12.99,67,870.33,Regular,No,0,3.8,16,Saturday,No,135,29.1,0.00,V010
+2023-01-14,West,402,Electronics,E018,Wireless Keyboard,79.99,18,1439.82,Regular,Yes,10,4.3,19,Saturday,No,37,18.6,0.00,V001
+2023-01-14,North,101,Grocery,G075,Specialty Tea,5.99,103,617.97,Regular,No,0,4.0,26,Saturday,No,209,12.7,0.00,V008
+2023-01-14,South,203,Clothing,C063,Athletic Jacket,89.95,13,1169.35,Premium,Yes,5,4.6,35,Saturday,No,29,26.9,0.00,V002
+2023-01-14,East,301,Home,H015,Food Mixer,69.99,19,1329.81,Regular,No,0,4.2,15,Saturday,No,41,19.1,4.99,V003
+2023-01-14,West,404,Beauty,B023,Makeup Palette,39.99,26,1039.74,Regular,Yes,15,4.4,20,Saturday,No,53,31.4,0.00,V010
+2023-01-15,North,103,Electronics,E001,Smartphone Case,24.99,48,1199.52,Regular,No,0,3.9,25,Sunday,Yes,97,20.8,0.00,V001
+2023-01-15,South,202,Grocery,G119,Premium Chocolate,12.99,65,844.35,Regular,Yes,0,4.1,36,Sunday,Yes,133,15.3,0.00,V008
+2023-01-15,East,304,Clothing,C085,Dress Shoes,129.95,8,1039.60,Premium,No,0,4.8,14,Sunday,Yes,19,27.4,0.00,V002
+2023-01-15,West,401,Home,H037,Robot Vacuum,249.99,5,1249.95,Premium,Yes,8,4.7,19,Sunday,Yes,12,22.9,0.00,V003
+2023-01-15,North,105,Beauty,B016,Body Wash,14.99,57,854.43,Regular,No,0,3.7,27,Sunday,Yes,115,28.7,0.00,V010
+2023-01-15,South,205,Electronics,E025,Gaming Headset,69.99,21,1469.79,Regular,Yes,5,4.5,33,Sunday,Yes,43,19.2,0.00,V001
+2023-01-15,East,307,Grocery,G055,Organic Cereal,6.49,88,571.12,Regular,No,0,4.0,15,Sunday,Yes,178,13.1,0.00,V008
+2023-01-15,West,403,Clothing,C109,Designer Belt,59.95,15,899.25,Regular,Yes,10,4.3,18,Sunday,Yes,32,28.1,0.00,V002
+2023-01-16,North,104,Home,H001,Kitchen Set,179.99,6,1079.94,Premium,No,0,4.6,26,Monday,No,14,18.8,9.99,V003
+2023-01-16,South,201,Beauty,B031,Nail Polish,9.99,79,789.21,Regular,Yes,15,3.9,35,Monday,No,159,30.6,0.00,V010
+2023-01-16,East,302,Electronics,E013,Bluetooth Headphones,69.99,23,1609.77,Regular,No,0,4.2,16,Monday,No,47,21.4,0.00,V001
+2023-01-16,West,405,Grocery,G067,Premium Coffee,14.99,64,959.36,Regular,Yes,5,4.3,20,Monday,No,131,16.5,0.00,V008
+2023-01-16,North,102,Clothing,C041,Winter Coat,149.99,7,1049.93,Premium,No,0,4.7,25,Monday,No,16,25.7,0.00,V002
+2023-01-16,South,204,Home,H030,Coffee Grinder,49.95,21,1048.95,Regular,Yes,8,4.0,34,Monday,No,44,20.2,3.99,V003
+2023-01-16,East,306,Beauty,B045,Facial Serum,34.99,29,1014.71,Regular,No,0,4.5,15,Monday,No,59,29.8,0.00,V010
+2023-01-16,West,402,Electronics,E020,Power Bank,39.99,31,1239.69,Regular,Yes,10,4.1,19,Monday,No,63,18.9,0.00,V001
+2023-01-17,North,101,Grocery,G051,Artisan Bread,4.99,112,558.88,Regular,No,0,4.0,27,Tuesday,No,226,12.4,0.00,V008
+2023-01-17,South,203,Clothing,C061,Running Tights,59.95,18,1079.10,Regular,Yes,5,4.4,33,Tuesday,No,37,27.1,0.00,V002
+2023-01-17,East,301,Home,H017,Blender Pro,99.99,12,1199.88,Regular,No,0,4.3,14,Tuesday,No,26,19.6,4.99,V003
+2023-01-17,West,404,Beauty,B025,Perfume Classic,69.99,17,1189.83,Premium,Yes,15,4.6,21,Tuesday,No,35,31.9,0.00,V010
+2023-01-17,North,103,Electronics,E003,Laptop Basic,799.99,3,2399.97,Premium,No,0,4.5,26,Tuesday,No,8,21.5,0.00,V001
+2023-01-17,South,202,Grocery,G043,Premium Chips,4.49,115,516.35,Regular,Yes,0,3.8,35,Tuesday,No,232,14.2,0.00,V008
+2023-01-17,East,304,Clothing,C081,Business Shirt,45.99,24,1103.76,Regular,No,0,4.1,16,Tuesday,No,49,26.2,0.00,V002
+2023-01-17,West,401,Home,H039,Air Purifier,129.99,9,1169.91,Regular,Yes,8,4.4,18,Tuesday,No,21,22.1,6.99,V003
+2023-01-18,North,105,Beauty,B012,Hair Conditioner,15.99,53,847.47,Regular,No,0,3.9,25,Wednesday,No,107,28.3,0.00,V010
+2023-01-18,South,205,Electronics,E027,Gaming Keyboard,89.99,15,1349.85,Regular,Yes,5,4.3,36,Wednesday,No,31,20.1,0.00,V001
+2023-01-18,East,307,Grocery,G063,Organic Chocolate,7.49,92,689.08,Regular,No,0,4.2,15,Wednesday,No,186,13.6,0.00,V008
+2023-01-18,West,403,Clothing,C105,Designer Wallet,79.95,14,1119.30,Premium,Yes,10,4.7,20,Wednesday,No,29,29.5,0.00,V002
+2023-01-18,North,104,Home,H007,Cookware Set Basic,99.99,11,1099.89,Regular,No,0,4.1,27,Wednesday,No,24,18.4,6.99,V003
+2023-01-18,South,201,Beauty,B033,Hair Color Kit,24.99,38,949.62,Regular,Yes,15,4.0,34,Wednesday,No,77,30.9,0.00,V010
+2023-01-18,East,302,Electronics,E015,Portable Speaker Mini,39.99,32,1279.68,Regular,No,0,4.2,14,Wednesday,No,65,21.7,2.99,V001
+2023-01-18,West,405,Grocery,G091,Premium Nuts Mix,11.99,69,827.31,Regular,Yes,5,3.9,19,Wednesday,No,140,15.5,0.00,V008
+2023-01-19,North,102,Clothing,C037,Winter Gloves Pro,34.99,31,1084.69,Regular,No,0,4.3,26,Thursday,No,63,24.9,0.00,V002
+2023-01-19,South,204,Home,H032,Stand Mixer Basic,119.95,9,1079.55,Regular,Yes,8,4.0,33,Thursday,No,21,19.9,7.99,V003
+2023-01-19,East,306,Beauty,B041,Face Cleansing Brush,29.99,36,1079.64,Regular,No,0,4.4,15,Thursday,No,73,29.3,2.99,V010
+2023-01-19,West,402,Electronics,E032,External Drive,69.99,19,1329.81,Regular,Yes,10,4.2,20,Thursday,No,39,19.1,0.00,V001
+2023-01-19,North,101,Grocery,G071,Specialty Cheese,9.49,82,778.18,Regular,No,0,4.1,25,Thursday,No,165,14.5,0.00,V008
+2023-01-19,South,203,Clothing,C057,Athletic Socks,12.95,67,867.65,Regular,Yes,5,3.8,36,Thursday,No,136,23.8,0.00,V002
+2023-01-19,East,301,Home,H019,Food Processor Basic,79.99,14,1119.86,Regular,No,0,4.3,14,Thursday,No,29,18.3,5.99,V003
+2023-01-19,West,404,Beauty,B021,Makeup Remover,19.99,49,979.51,Regular,Yes,15,4.0,19,Thursday,No,99,28.7,0.00,V010
+2023-01-20,North,103,Electronics,E007,Headphones Basic,49.99,27,1349.73,Regular,No,0,4.1,27,Friday,No,55,20.6,0.00,V001
+2023-01-20,South,202,Grocery,G115,Premium Cookies Deluxe,8.99,86,773.14,Regular,Yes,0,4.2,34,Friday,No,172,15.7,0.00,V008
+2023-01-20,East,304,Clothing,C073,Dress Shirt Slim,54.95,19,1044.05,Regular,No,0,4.4,16,Friday,No,39,27.3,0.00,V002
+2023-01-20,West,401,Home,H041,Robot Mop,179.99,6,1079.94,Premium,Yes,8,4.8,20,Friday,No,13,22.7,0.00,V003
+2023-01-20,North,105,Beauty,B010,Body Lotion Set,29.99,37,1109.63,Regular,No,0,3.7,26,Friday,No,75,29.4,0.00,V010
+2023-01-20,South,205,Electronics,E029,Smart Watch Basic,149.99,12,1799.88,Premium,Yes,5,4.5,33,Friday,No,25,18.9,0.00,V001
+2023-01-20,East,307,Grocery,G047,Organic Snack Bar,5.99,97,581.03,Regular,No,0,4.0,15,Friday,No,195,13.3,0.00,V008
+2023-01-20,West,403,Clothing,C103,Designer Gloves,44.95,21,944.95,Regular,Yes,10,4.2,19,Friday,No,43,28.6,0.00,V002
+2023-01-21,North,104,Home,H009,Kitchen Tools Set,39.99,26,1039.74,Regular,No,0,4.0,25,Saturday,No,53,18.6,3.99,V003
+2023-01-21,South,201,Beauty,B035,Nail Treatment,14.99,59,884.41,Regular,Yes,15,3.9,36,Saturday,No,119,30.1,0.00,V010
+2023-01-21,East,302,Electronics,E017,Bluetooth Speaker Pro,89.99,16,1439.84,Regular,No,0,4.4,14,Saturday,No,33,21.3,3.99,V001
+2023-01-21,West,405,Grocery,G087,Premium Coffee Beans,16.49,58,956.42,Regular,Yes,5,4.3,21,Saturday,No,118,16.1,0.00,V008
+2023-01-21,North,102,Clothing,C035,Winter Hat Pro,24.99,43,1074.57,Regular,No,0,4.0,27,Saturday,No,87,25.1,0.00,V002
+2023-01-21,South,204,Home,H034,Coffee Maker Deluxe,139.95,8,1119.60,Premium,Yes,8,4.6,33,Saturday,No,17,20.8,5.99,V003
+2023-01-21,East,306,Beauty,B047,Eye Cream,27.99,38,1063.62,Regular,No,0,4.5,15,Saturday,No,77,29.9,0.00,V010
+2023-01-21,West,402,Electronics,E022,Wireless Charger Pad,29.99,39,1169.61,Regular,Yes,10,4.1,18,Saturday,No,79,19.7,0.00,V001
+2023-01-22,North,101,Grocery,G055,Artisan Pasta,6.49,96,623.04,Regular,No,0,4.0,26,Sunday,Yes,193,12.8,0.00,V008
+2023-01-22,South,203,Clothing,C059,Running Cap,19.95,48,957.60,Regular,Yes,5,3.9,35,Sunday,Yes,97,24.6,0.00,V002
+2023-01-22,East,301,Home,H021,Blender Mini,59.99,19,1139.81,Regular,No,0,4.2,16,Sunday,Yes,39,18.8,4.99,V003
+2023-01-22,West,404,Beauty,B027,Perfume Mini,39.99,29,1159.71,Regular,Yes,15,4.4,20,Sunday,Yes,59,31.6,0.00,V010
+2023-01-22,North,103,Electronics,E006,Noise Cancelling Earbuds,129.99,13,1689.87,Premium,No,0,4.7,25,Sunday,Yes,27,22.4,0.00,V001
+2023-01-22,South,202,Grocery,G035,Premium Crackers,4.99,107,534.93,Regular,Yes,0,3.8,34,Sunday,Yes,217,14.4,0.00,V008
+2023-01-22,East,304,Clothing,C077,Business Pants,64.95,17,1104.15,Regular,No,0,4.3,15,Sunday,Yes,35,26.7,0.00,V002
+2023-01-22,West,401,Home,H045,Air Purifier Pro,179.99,7,1259.93,Premium,Yes,8,4.8,19,Sunday,Yes,15,23.2,7.99,V003
+2023-01-23,North,105,Beauty,B008,Hair Mask,12.99,64,831.36,Regular,No,0,3.9,27,Monday,No,129,28.9,0.00,V010
+2023-01-23,South,205,Electronics,E031,Gaming Mouse Pro,79.99,18,1439.82,Regular,Yes,5,4.5,36,Monday,No,37,19.5,0.00,V001
+2023-01-23,East,307,Grocery,G059,Organic Tea,5.49,103,565.47,Regular,No,0,4.1,14,Monday,No,208,13.7,0.00,V008
+2023-01-23,West,403,Clothing,C101,Designer Socks,19.95,47,937.65,Regular,Yes,10,4.0,21,Monday,No,95,27.8,0.00,V002
+2023-01-23,North,104,Home,H011,Cookware Basic,69.99,16,1119.84,Regular,No,0,4.2,26,Monday,No,33,18.1,5.99,V003
+2023-01-23,South,201,Beauty,B037,Hair Spray,12.99,67,870.33,Regular,Yes,15,3.8,33,Monday,No,134,29.7,0.00,V010
+2023-01-23,East,302,Electronics,E019,Portable Charger Pro,49.99,28,1399.72,Regular,No,0,4.3,15,Monday,No,57,21.1,0.00,V001
+2023-01-23,West,405,Grocery,G083,Premium Tea Sampler,14.99,62,929.38,Regular,Yes,5,4.2,18,Monday,No,125,16.3,0.00,V008
+2023-01-24,North,102,Clothing,C033,Winter Boots Pro,129.99,9,1169.91,Premium,No,0,4.6,27,Tuesday,No,19,25.3,0.00,V002
+2023-01-24,South,204,Home,H036,Kitchen Scale,29.95,32,958.40,Regular,Yes,8,3.9,34,Tuesday,No,65,20.4,2.99,V003
+2023-01-24,East,306,Beauty,B043,Face Mask Set,19.99,46,919.54,Regular,No,0,4.1,16,Tuesday,No,93,28.5,0.00,V010
+2023-01-24,West,402,Electronics,E030,Wireless Keyboard Pro,99.99,14,1399.86,Regular,Yes,10,4.4,19,Tuesday,No,29,18.8,0.00,V001
+2023-01-24,North,101,Grocery,G067,Specialty Coffee,7.99,89,711.11,Regular,No,0,4.0,26,Tuesday,No,179,13.9,0.00,V008
+2023-01-24,South,203,Clothing,C055,Athletic Shirt,24.95,39,973.05,Regular,Yes,5,4.2,35,Tuesday,No,79,24.2,0.00,V002
+2023-01-24,East,301,Home,H023,Food Slicer,49.99,21,1049.79,Regular,No,0,4.3,15,Tuesday,No,43,19.2,4.99,V003
+2023-01-24,West,404,Beauty,B019,Makeup Sponge Set,14.99,58,869.42,Regular,Yes,15,3.9,20,Tuesday,No,117,30.2,0.00,V010
+2023-01-25,North,103,Electronics,E009,Headphones Pro,89.99,17,1529.83,Regular,No,0,4.5,25,Wednesday,No,35,22.6,0.00,V001
+2023-01-25,South,202,Grocery,G111,Premium Granola,9.49,79,749.71,Regular,Yes,0,4.1,36,Wednesday,No,159,15.2,0.00,V008
+2023-01-25,East,304,Clothing,C069,Dress Shoes Basic,89.95,13,1169.35,Regular,No,0,4.3,14,Wednesday,No,28,27.5,0.00,V002
+2023-01-25,West,401,Home,H043,Smart Thermostat,149.99,8,1199.92,Premium,Yes,8,4.7,19,Wednesday,No,17,23.4,0.00,V003
+2023-01-25,North,105,Beauty,B006,Body Scrub,18.99,49,930.51,Regular,No,0,4.0,27,Wednesday,No,99,29.1,0.00,V010
+2023-01-25,South,205,Electronics,E033,Smart Watch Pro,199.99,9,1799.91,Premium,Yes,5,4.8,33,Wednesday,No,19,19.3,0.00,V001
+2023-01-25,East,307,Grocery,G043,Organic Chips,4.99,109,543.91,Regular,No,0,3.9,15,Wednesday,No,219,13.5,0.00,V008
+2023-01-25,West,403,Clothing,C099,Designer Hat,34.95,27,943.65,Regular,Yes,10,4.1,20,Wednesday,No,55,28.2,0.00,V002
+2023-01-26,North,104,Home,H013,Kitchen Utensils Set,24.99,38,949.62,Regular,No,0,3.8,26,Thursday,No,77,18.5,2.99,V003
+2023-01-26,South,201,Beauty,B039,Nail Polish Set Pro,29.99,34,1019.66,Regular,Yes,15,4.2,35,Thursday,No,69,30.8,0.00,V010
+2023-01-26,East,302,Electronics,E021,Bluetooth Earbuds Pro,69.99,21,1469.79,Regular,No,0,4.4,16,Thursday,No,43,21.9,0.00,V001
+2023-01-26,West,405,Grocery,G079,Premium Jam,8.99,83,746.17,Regular,Yes,5,4.0,19,Thursday,No,167,16.7,0.00,V008
+2023-01-26,North,102,Clothing,C031,Winter Scarf Set,29.99,36,1079.64,Regular,No,0,4.2,25,Thursday,No,73,25.7,0.00,V002
+2023-01-26,South,204,Home,H038,Coffee Grinder Pro,69.95,16,1119.20,Regular,Yes,8,4.5,34,Thursday,No,33,21.5,3.99,V003
+2023-01-26,East,306,Beauty,B049,Facial Roller,21.99,44,967.56,Regular,No,0,4.3,15,Thursday,No,89,29.5,0.00,V010
+2023-01-26,West,402,Electronics,E024,Wireless Earbuds Basic,39.99,32,1279.68,Regular,Yes,10,3.9,20,Thursday,No,65,19.4,0.00,V001
+2023-01-27,North,101,Grocery,G051,Artisan Oils,11.99,71,851.29,Regular,No,0,4.1,27,Friday,No,144,14.3,0.00,V008
+2023-01-27,South,203,Clothing,C053,Running Shoes Pro,119.95,10,1199.50,Premium,Yes,5,4.7,33,Friday,No,21,26.3,0.00,V002
+2023-01-27,East,301,Home,H025,Blender Professional,149.99,8,1199.92,Premium,No,0,4.6,14,Friday,No,17,19.8,6.99,V003
+2023-01-27,West,404,Beauty,B029,Perfume Deluxe,99.99,11,1099.89,Premium,Yes,15,4.8,21,Friday,No,23,31.2,0.00,V010
+2023-01-27,North,103,Electronics,E011,Headphones Wireless,69.99,23,1609.77,Regular,No,0,4.3,26,Friday,No,47,22.2,0.00,V001
+2023-01-27,South,202,Grocery,G027,Premium Candy,3.99,123,491.77,Regular,Yes,0,3.7,35,Friday,No,247,14.1,0.00,V008
+2023-01-27,East,304,Clothing,C065,Business Tie,39.95,26,1038.70,Regular,No,0,4.0,15,Friday,No,53,25.9,0.00,V002
+2023-01-27,West,401,Home,H047,Air Fryer Pro,129.99,10,1299.90,Regular,Yes,8,4.4,18,Friday,No,21,23.6,5.99,V003
+2023-01-28,North,105,Beauty,B004,Hair Styling Cream,16.99,52,883.48,Regular,No,0,4.1,25,Saturday,No,105,28.4,0.00,V010
+2023-01-28,South,205,Electronics,E035,Gaming Headset Pro,129.99,11,1429.89,Premium,Yes,5,4.6,36,Saturday,No,23,20.5,0.00,V001
+2023-01-28,East,307,Grocery,G055,Organic Coffee,9.99,79,789.21,Regular,No,0,4.2,14,Saturday,No,159,13.2,0.00,V008
+2023-01-28,West,403,Clothing,C097,Designer Wallet Slim,59.95,17,1019.15,Regular,Yes,10,4.5,19,Saturday,No,35,28.7,0.00,V002
+2023-01-28,North,104,Home,H015,Cookware Professional,199.99,6,1199.94,Premium,No,0,4.7,27,Saturday,No,13,19.3,9.99,V003
+2023-01-28,South,201,Beauty,B041,Hair Serum,18.99,48,911.52,Regular,Yes,15,3.9,34,Saturday,No,97,30.4,0.00,V010
+2023-01-28,East,302,Electronics,E023,Portable Speaker Pro,79.99,19,1519.81,Regular,No,0,4.4,16,Saturday,No,39,21.6,2.99,V001
+2023-01-28,West,405,Grocery,G075,Premium Cookies Classic,7.49,87,651.63,Regular,Yes,5,3.8,20,Saturday,No,175,15.8,0.00,V008
+2023-01-29,North,102,Clothing,C027,Winter Coat Basic,99.99,12,1199.88,Regular,No,0,4.3,26,Sunday,Yes,25,24.8,0.00,V002
+2023-01-29,South,204,Home,H040,Stand Mixer Deluxe,219.95,5,1099.75,Premium,Yes,8,4.8,33,Sunday,Yes,11,21.7,8.99,V003
+2023-01-29,East,306,Beauty,B045,Face Cream,24.99,41,1024.59,Regular,No,0,4.2,15,Sunday,Yes,83,29.6,0.00,V010
+2023-01-29,West,402,Electronics,E028,Wireless Mouse Pro,49.99,26,1299.74,Regular,Yes,10,4.0,19,Sunday,Yes,53,18.7,0.00,V001
+2023-01-29,North,101,Grocery,G063,Specialty Chocolate,6.99,94,657.06,Regular,No,0,4.1,25,Sunday,Yes,189,13.6,0.00,V008
+2023-01-29,South,203,Clothing,C051,Athletic Pants,44.95,22,988.90,Regular,Yes,5,4.4,36,Sunday,Yes,45,25.4,0.00,V002
+2023-01-29,East,301,Home,H027,Food Processor Pro,129.99,9,1169.91,Regular,No,0,4.5,14,Sunday,Yes,19,18.9,6.99,V003
+2023-01-29,West,404,Beauty,B017,Makeup Brush,12.99,63,818.37,Regular,Yes,15,3.8,21,Sunday,Yes,127,30.5,0.00,V010
+2023-01-30,North,103,Electronics,E013,Headphones Mini,39.99,29,1159.71,Regular,No,0,4.1,27,Monday,No,59,21.2,0.00,V001
+2023-01-30,South,202,Grocery,G107,Premium Nuts Deluxe,12.49,68,849.32,Regular,Yes,0,4.3,34,Monday,No,137,15.4,0.00,V008
+2023-01-30,East,304,Clothing,C061,Dress Pants,59.95,18,1079.10,Regular,No,0,4.2,16,Monday,No,37,26.1,0.00,V002
+2023-01-30,West,401,Home,H049,Robot Vacuum Deluxe,299.99,4,1199.96,Premium,Yes,8,4.9,20,Monday,No,9,23.8,0.00,V003
+2023-01-30,North,105,Beauty,B002,Body Lotion Deluxe,24.99,39,974.61,Regular,No,0,4.0,26,Monday,No,79,29.3,0.00,V010
+2023-01-30,South,205,Electronics,E037,Smart Watch Deluxe,249.99,5,1249.95,Premium,Yes,5,4.7,33,Monday,No,11,19.9,0.00,V001
+2023-01-30,East,307,Grocery,G039,Organic Snacks Deluxe,7.99,88,703.12,Regular,No,0,3.9,15,Monday,No,177,13.4,0.00,V008
+2023-01-30,West,403,Clothing,C095,Designer Scarf Deluxe,69.95,13,909.35,Premium,Yes,10,4.6,19,Monday,No,27,28.9,0.00,V002
+2023-01-31,North,104,Home,H017,Kitchen Tools Professional,49.99,21,1049.79,Regular,No,0,4.1,25,Tuesday,No,43,18.7,3.99,V003
+2023-01-31,South,201,Beauty,B043,Nail Care Professional,34.99,29,1014.71,Regular,Yes,15,4.3,36,Tuesday,No,59,30.7,0.00,V010
+2023-01-31,East,302,Electronics,E025,Bluetooth Speaker Deluxe,129.99,11,1429.89,Premium,No,0,4.5,14,Tuesday,No,23,22.1,3.99,V001
+2023-01-31,West,405,Grocery,G071,Premium Coffee Premium,17.99,54,971.46,Regular,Yes,5,4.4,21,Tuesday,No,109,16.9,0.00,V008
+2023-01-31,North,102,Clothing,C029,Winter Accessories Set,39.99,27,1079.73,Regular,No,0,4.0,27,Tuesday,No,55,25.2,0.00,V002
+2023-01-31,South,204,Home,H042,Coffee Maker Deluxe,179.95,6,1079.70,Premium,Yes,8,4.8,33,Tuesday,No,13,22.5,5.99,V003
+2023-01-31,East,306,Beauty,B051,Eye Serum,32.99,31,1022.69,Regular,No,0,4.6,15,Tuesday,No,63,31.1,0.00,V010
+2023-01-31,West,402,Electronics,E026,Wireless Charger Deluxe,49.99,24,1199.76,Regular,Yes,10,4.2,18,Tuesday,No,49,20.3,0.00,V001
+2023-02-01,North,101,Grocery,G047,Artisan Honey,14.99,61,914.39,Regular,No,0,4.0,26,Wednesday,No,123,14.7,0.00,V008
+2023-02-01,South,203,Clothing,C051,Running Shorts Deluxe,39.95,24,958.80,Regular,Yes,5,4.5,35,Wednesday,No,49,26.7,0.00,V002
+2023-02-01,East,301,Home,H029,Blender Deluxe,129.99,9,1169.91,Regular,No,0,4.4,16,Wednesday,No,19,19.5,5.99,V003
+2023-02-01,West,404,Beauty,B031,Perfume Premium,149.99,7,1049.93,Premium,Yes,15,4.7,19,Wednesday,No,15,32.5,0.00,V010
+2023-02-01,North,103,Electronics,E015,Headphones Deluxe,149.99,10,1499.90,Premium,No,0,4.6,25,Wednesday,No,21,22.8,0.00,V001
+2023-02-01,South,202,Grocery,G019,Premium Chocolate Premium,9.99,77,769.23,Regular,Yes,0,4.2,34,Wednesday,No,155,15.1,0.00,V008
+2023-02-01,East,304,Clothing,C057,Business Shirt Deluxe,79.95,14,1119.30,Premium,No,0,4.3,15,Wednesday,No,29,26.4,0.00,V002
+2023-02-01,West,401,Home,H051,Air Purifier Deluxe,199.99,5,999.95,Premium,Yes,8,4.9,20,Wednesday,No,11,23.9,7.99,V003
+2023-02-02,North,105,Beauty,B001,Hair Treatment Deluxe,29.99,33,989.67,Regular,No,0,4.1,27,Thursday,No,67,29.8,0.00,V010
+2023-02-02,South,205,Electronics,E039,Gaming Mouse Deluxe,99.99,12,1199.88,Premium,Yes,5,4.7,33,Thursday,No,25,20.7,0.00,V001
+2023-02-02,East,307,Grocery,G051,Organic Tea Premium,8.99,81,728.19,Regular,No,0,4.0,14,Thursday,No,163,13.8,0.00,V008
+2023-02-02,West,403,Clothing,C093,Designer Ties Set,89.95,11,989.45,Premium,Yes,10,4.5,21,Thursday,No,23,29.1,0.00,V002
+2023-02-02,North,104,Home,H019,Cookware Deluxe,249.99,4,999.96,Premium,No,0,4.8,26,Thursday,No,9,19.7,9.99,V003
+2023-02-02,South,201,Beauty,B045,Hair Oil,21.99,42,923.58,Regular,Yes,15,3.9,35,Thursday,No,85,30.3,0.00,V010
+2023-02-02,East,302,Electronics,E027,Portable Speaker Premium,119.99,11,1319.89,Premium,No,0,4.5,15,Thursday,No,23,21.8,2.99,V001
+2023-02-02,West,405,Grocery,G067,Premium Cookies Deluxe,9.99,75,749.25,Regular,Yes,5,4.1,18,Thursday,No,151,16.5,0.00,V008
+2023-02-03,North,102,Clothing,C025,Winter Boots Deluxe,159.99,7,1119.93,Premium,No,0,4.7,27,Friday,No,15,25.5,0.00,V002
+2023-02-03,South,204,Home,H044,Kitchen Scale Deluxe,49.95,19,949.05,Regular,Yes,8,4.0,34,Friday,No,39,21.3,2.99,V003
+2023-02-03,East,306,Beauty,B047,Face Mask Premium,34.99,28,979.72,Regular,No,0,4.4,16,Friday,No,57,29.7,0.00,V010
+2023-02-03,West,402,Electronics,E034,Wireless Keyboard Deluxe,119.99,10,1199.90,Premium,Yes,10,4.6,19,Friday,No,21,19.2,0.00,V001
+2023-02-03,North,101,Grocery,G059,Specialty Tea Premium,11.99,69,827.31,Regular,No,0,4.3,26,Friday,No,139,14.5,0.00,V008
+2023-02-03,South,203,Clothing,C049,Athletic Shoes Deluxe,129.95,9,1169.55,Premium,Yes,5,4.8,35,Friday,No,19,26.9,0.00,V002
+2023-02-03,East,301,Home,H031,Food Processor Deluxe,179.99,6,1079.94,Premium,No,0,4.5,15,Friday,No,13,19.4,6.99,V003
+2023-02-03,West,404,Beauty,B015,Makeup Set Premium,99.99,10,999.90,Premium,Yes,15,4.7,20,Friday,No,21,31.8,0.00,V010
+2023-02-04,North,103,Electronics,E017,Headphones Premium,199.99,7,1399.93,Premium,No,0,4.8,25,Saturday,No,15,22.4,0.00,V001
+2023-02-04,South,202,Grocery,G103,Premium Granola Premium,12.99,64,831.36,Regular,Yes,0,4.2,36,Saturday,No,129,15.3,0.00,V008
+2023-02-04,East,304,Clothing,C053,Dress Shoes Deluxe,149.95,8,1199.60,Premium,No,0,4.6,14,Saturday,No,17,27.2,0.00,V002
+2023-02-04,West,401,Home,H053,Smart Thermostat Deluxe,199.99,5,999.95,Premium,Yes,8,4.9,19,Saturday,No,11,24.1,0.00,V003
+2023-02-04,North,105,Beauty,B000,Body Scrub Premium,29.99,31,929.69,Regular,No,0,4.3,27,Saturday,No,63,29.9,0.00,V010
+2023-02-04,South,205,Electronics,E041,Smart Watch Premium,299.99,4,1199.96,Premium,Yes,5,4.8,33,Saturday,No,9,20.1,0.00,V001
+2023-02-04,East,307,Grocery,G035,Organic Chips Premium,7.99,83,663.17,Regular,No,0,4.0,15,Saturday,No,167,13.9,0.00,V008
+2023-02-04,West,403,Clothing,C091,Designer Hat Premium,49.95,18,899.10,Regular,Yes,10,4.4,20,Saturday,No,37,28.3,0.00,V002
+2023-02-05,North,104,Home,H021,Kitchen Utensils Deluxe,39.99,25,999.75,Regular,No,0,4.1,26,Sunday,Yes,51,18.9,2.99,V003
+2023-02-05,South,201,Beauty,B047,Nail Polish Set Premium,49.99,19,949.81,Regular,Yes,15,4.5,35,Sunday,Yes,39,30.9,0.00,V010
+2023-02-05,East,302,Electronics,E029,Bluetooth Earbuds Premium,99.99,13,1299.87,Premium,No,0,4.7,16,Sunday,Yes,27,22.3,0.00,V001
+2023-02-05,West,405,Grocery,G071,Premium Jam Premium,11.99,67,803.33,Regular,Yes,5,4.2,19,Sunday,Yes,135,16.2,0.00,V008
+2023-02-05,North,102,Clothing,C023,Winter Scarf Premium,39.99,24,959.76,Regular,No,0,4.3,25,Sunday,Yes,49,25.8,0.00,V002
+2023-02-05,South,204,Home,H046,Coffee Grinder Premium,89.95,14,1259.30,Regular,Yes,8,4.6,34,Sunday,Yes,29,22.7,3.99,V003
+2023-02-05,East,306,Beauty,B053,Facial Roller Premium,34.99,29,1014.71,Regular,No,0,4.4,15,Sunday,Yes,59,30.7,0.00,V010
+2023-02-05,West,402,Electronics,E030,Wireless Earbuds Premium,89.99,16,1439.84,Premium,Yes,10,4.5,18,Sunday,Yes,33,19.6,0.00,V001
+2023-02-06,North,101,Grocery,G043,Artisan Oils Premium,17.99,54,971.46,Regular,No,0,4.1,27,Monday,No,109,14.9,0.00,V008
+2023-02-06,South,203,Clothing,C045,Running Shoes Premium,149.99,8,1199.92,Premium,Yes,5,4.8,33,Monday,No,17,27.3,0.00,V002
+2023-02-06,East,301,Home,H033,Blender Professional Premium,199.99,5,999.95,Premium,No,0,4.7,14,Monday,No,11,20.1,6.99,V003
+2023-02-06,West,404,Beauty,B033,Perfume Collection,199.99,5,999.95,Premium,Yes,15,4.9,21,Monday,No,11,32.1,0.00,V010
+2023-02-06,North,103,Electronics,E019,Headphones Pro Premium,179.99,8,1439.92,Premium,No,0,4.7,26,Monday,No,17,22.9,0.00,V001
+2023-02-06,South,202,Grocery,G019,Premium Candy Premium,5.99,96,575.04,Regular,Yes,0,3.9,35,Monday,No,193,14.6,0.00,V008
+2023-02-06,East,304,Clothing,C057,Business Tie Premium,59.95,15,899.25,Regular,No,0,4.2,15,Monday,No,31,26.5,0.00,V002
+2023-02-06,West,401,Home,H055,Air Fryer Premium,149.99,8,1199.92,Premium,Yes,8,4.6,18,Monday,No,17,23.5,5.99,V003
+2023-02-07,North,105,Beauty,B000,Hair Styling Set Premium,49.99,18,899.82,Regular,No,0,4.4,27,Tuesday,No,37,29.5,0.00,V010
+2023-02-07,South,205,Electronics,E043,Gaming Headset Premium,179.99,6,1079.94,Premium,Yes,5,4.8,34,Tuesday,No,13,20.4,0.00,V001
+2023-02-07,East,307,Grocery,G047,Organic Coffee Premium,14.99,62,929.38,Regular,No,0,4.3,16,Tuesday,No,125,13.7,0.00,V008
+2023-02-07,West,403,Clothing,C089,Designer Wallet Premium,99.95,10,999.50,Premium,Yes,10,4.7,19,Tuesday,No,21,29.2,0.00,V002
+2023-02-07,North,104,Home,H023,Cookware Premium,249.99,4,999.96,Premium,No,0,4.8,26,Tuesday,No,9,19.6,9.99,V003
+2023-02-07,South,201,Beauty,B049,Hair Serum Premium,29.99,33,989.67,Regular,Yes,15,4.1,33,Tuesday,No,67,31.2,0.00,V010
+2023-02-07,East,302,Electronics,E031,Portable Speaker Ultimate,149.99,9,1349.91,Premium,No,0,4.6,15,Tuesday,No,19,22.5,2.99,V001
+2023-02-07,West,405,Grocery,G075,Premium Cookies Ultimate,11.99,68,815.32,Regular,Yes,5,4.0,20,Tuesday,No,137,16.1,0.00,V008
+2023-02-08,North,102,Clothing,C019,Winter Coat Premium,179.99,6,1079.94,Premium,No,0,4.8,25,Wednesday,No,13,25.9,0.00,V002
+2023-02-08,South,204,Home,H048,Stand Mixer Premium,299.95,3,899.85,Premium,Yes,8,4.9,36,Wednesday,No,7,22.8,8.99,V003
+2023-02-08,East,306,Beauty,B045,Face Cream Premium,39.99,25,999.75,Regular,No,0,4.5,14,Wednesday,No,51,30.6,0.00,V010
+2023-02-08,West,402,Electronics,E036,Wireless Mouse Premium,69.99,16,1119.84,Regular,Yes,10,4.3,19,Wednesday,No,33,19.8,0.00,V001
+2023-02-08,North,101,Grocery,G055,Specialty Chocolate Premium,9.99,73,729.27,Regular,No,0,4.2,27,Wednesday,No,147,14.2,0.00,V008
+2023-02-08,South,203,Clothing,C043,Athletic Pants Premium,69.95,15,1049.25,Regular,Yes,5,4.6,33,Wednesday,No,31,26.1,0.00,V002
+2023-02-08,East,301,Home,H035,Food Processor Premium,179.99,6,1079.94,Premium,No,0,4.7,15,Wednesday,No,13,19.9,6.99,V003
+2023-02-08,West,404,Beauty,B013,Makeup Brushes Set Premium,49.99,19,949.81,Regular,Yes,15,4.3,20,Wednesday,No,39,31.5,0.00,V010
+2023-02-09,North,103,Electronics,E021,Headphones Ultimate,249.99,5,1249.95,Premium,No,0,4.9,26,Thursday,No,11,23.2,0.00,V001
+2023-02-09,South,202,Grocery,G099,Premium Nuts Ultimate,14.99,59,884.41,Regular,Yes,0,4.4,35,Thursday,No,119,15.6,0.00,V008
+2023-02-09,East,304,Clothing,C051,Dress Pants Premium,89.95,13,1169.35,Premium,No,0,4.5,16,Thursday,No,27,27.4,0.00,V002
+2023-02-09,West,401,Home,H057,Robot Vacuum Premium,399.99,3,1199.97,Premium,Yes,8,4.9,19,Thursday,No,7,24.3,0.00,V003
+2023-02-09,North,105,Beauty,B000,Body Lotion Premium,34.99,27,944.73,Regular,No,0,4.2,25,Thursday,No,55,30.4,0.00,V010
+2023-02-09,South,205,Electronics,E045,Smart Watch Ultimate,399.99,3,1199.97,Premium,Yes,5,4.9,34,Thursday,No,7,20.3,0.00,V001
+2023-02-09,East,307,Grocery,G031,Organic Snacks Premium,9.99,75,749.25,Regular,No,0,4.1,15,Thursday,No,151,14.4,0.00,V008
+2023-02-09,West,403,Clothing,C087,Designer Scarf Premium,89.95,11,989.45,Premium,Yes,10,4.7,20,Thursday,No,23,29.5,0.00,V002
+2023-02-10,North,104,Home,H025,Kitchen Tools Premium,69.99,14,979.86,Regular,No,0,4.3,27,Friday,No,29,19.2,3.99,V003
+2023-02-10,South,201,Beauty,B051,Nail Care Premium,49.99,19,949.81,Regular,Yes,15,4.4,33,Friday,No,39,31.1,0.00,V010
+2023-02-10,East,302,Electronics,E033,Bluetooth Speaker Ultimate,179.99,7,1259.93,Premium,No,0,4.8,14,Friday,No,15,22.7,3.99,V001
+2023-02-10,West,405,Grocery,G067,Premium Coffee Ultimate,21.99,46,1011.54,Regular,Yes,5,4.5,21,Friday,No,93,16.7,0.00,V008
+2023-02-10,North,102,Clothing,C021,Winter Accessories Premium,59.99,17,1019.83,Regular,No,0,4.2,26,Friday,No,35,25.6,0.00,V002
+2023-02-10,South,204,Home,H050,Coffee Maker Premium,229.95,4,919.80,Premium,Yes,8,4.8,35,Friday,No,9,22.9,5.99,V003
+2023-02-10,East,306,Beauty,B055,Eye Serum Premium,49.99,20,999.80,Premium,No,0,4.7,15,Friday,No,41,31.7,0.00,V010
+2023-02-10,West,402,Electronics,E034,Wireless Charger Premium,69.99,16,1119.84,Premium,Yes,10,4.4,18,Friday,No,33,20.5,0.00,V001
+2023-02-11,North,101,Grocery,G039,Artisan Honey Premium,19.99,48,959.52,Regular,No,0,4.3,27,Saturday,No,97,15.1,0.00,V008
+2023-02-11,South,203,Clothing,C043,Running Shorts Premium,59.95,17,1019.15,Regular,Yes,5,4.6,34,Saturday,No,35,27.5,0.00,V002
+2023-02-11,East,301,Home,H037,Blender Ultimate,179.99,6,1079.94,Premium,No,0,4.8,16,Saturday,No,13,20.2,5.99,V003
+2023-02-11,West,404,Beauty,B035,Perfume Ultimate,199.99,5,999.95,Premium,Yes,15,4.9,19,Saturday,No,11,32.3,0.00,V010
+2023-02-11,North,103,Electronics,E023,Headphones Ultimate Pro,249.99,5,1249.95,Premium,No,0,4.9,26,Saturday,No,11,23.1,0.00,V001
+2023-02-11,South,202,Grocery,G011,Premium Chocolate Ultimate,14.99,57,854.43,Regular,Yes,0,4.3,33,Saturday,No,115,15.8,0.00,V008
+2023-02-11,East,304,Clothing,C049,Business Shirt Ultimate,99.95,11,1099.45,Premium,No,0,4.6,15,Saturday,No,23,27.8,0.00,V002
+2023-02-11,West,401,Home,H059,Air Purifier Ultimate,249.99,4,999.96,Premium,Yes,8,4.9,20,Saturday,No,9,24.2,7.99,V003
+2023-02-12,North,105,Beauty,B000,Hair Treatment Ultimate,49.99,19,949.81,Regular,No,0,4.5,25,Sunday,Yes,39,30.1,0.00,V010
+2023-02-12,South,205,Electronics,E047,Gaming Mouse Ultimate,149.99,8,1199.92,Premium,Yes,5,4.8,36,Sunday,Yes,17,20.9,0.00,V001
+2023-02-12,East,307,Grocery,G043,Organic Tea Ultimate,12.99,64,831.36,Regular,No,0,4.4,14,Sunday,Yes,129,14.1,0.00,V008
+2023-02-12,West,403,Clothing,C085,Designer Ties Ultimate,119.95,9,1079.55,Premium,Yes,10,4.7,19,Sunday,Yes,19,29.7,0.00,V002
+2023-02-12,North,104,Home,H027,Cookware Ultimate,299.99,3,899.97,Premium,No,0,4.9,27,Sunday,Yes,7,20.3,9.99,V003
+2023-02-12,South,201,Beauty,B053,Hair Oil Premium,34.99,28,979.72,Regular,Yes,15,4.2,33,Sunday,Yes,57,31.3,0.00,V010
+2023-02-12,East,302,Electronics,E035,Portable Speaker Elite,149.99,8,1199.92,Premium,No,0,4.7,15,Sunday,Yes,17,22.6,2.99,V001
+2023-02-12,West,405,Grocery,G059,Premium Cookies Elite,14.99,59,884.41,Regular,Yes,5,4.2,20,Sunday,Yes,119,16.3,0.00,V008
+2023-02-13,North,102,Clothing,C017,Winter Boots Ultimate,199.99,5,999.95,Premium,No,0,4.8,26,Monday,No,11,26.1,0.00,V002
+2023-02-13,South,204,Home,H052,Kitchen Scale Premium,69.95,14,979.30,Regular,Yes,8,4.3,35,Monday,No,29,21.9,2.99,V003
+2023-02-13,East,306,Beauty,B049,Face Mask Ultimate,49.99,19,949.81,Regular,No,0,4.6,16,Monday,No,39,30.2,0.00,V010
+2023-02-13,West,402,Electronics,E038,Wireless Keyboard Ultimate,149.99,7,1049.93,Premium,Yes,10,4.8,19,Monday,No,15,20.1,0.00,V001
+2023-02-13,North,101,Grocery,G051,Specialty Tea Ultimate,15.99,53,847.47,Regular,No,0,4.4,25,Monday,No,107,14.7,0.00,V008
+2023-02-13,South,203,Clothing,C041,Athletic Shoes Ultimate,179.95,6,1079.70,Premium,Yes,5,4.9,34,Monday,No,13,27.7,0.00,V002
+2023-02-13,East,301,Home,H039,Food Processor Ultimate,229.99,4,919.96,Premium,No,0,4.8,15,Monday,No,9,20.5,6.99,V003
+2023-02-13,West,404,Beauty,B011,Makeup Set Ultimate,149.99,7,1049.93,Premium,Yes,15,4.8,20,Monday,No,15,32.4,0.00,V010
+2023-02-14,North,103,Electronics,E025,Headphones Elite,299.99,4,1199.96,Premium,No,0,4.9,27,Tuesday,No,9,23.3,0.00,V001
+2023-02-14,South,202,Grocery,G095,Premium Granola Ultimate,17.99,49,881.51,Regular,Yes,0,4.5,33,Tuesday,No,99,15.9,0.00,V008
+2023-02-14,East,304,Clothing,C045,Dress Shoes Ultimate,199.95,5,999.75,Premium,No,0,4.8,14,Tuesday,No,11,28.1,0.00,V002
+2023-02-14,West,401,Home,H061,Smart Thermostat Ultimate,249.99,4,999.96,Premium,Yes,8,4.9,21,Tuesday,No,9,24.5,0.00,V003
+2023-02-14,North,105,Beauty,B000,Body Scrub Ultimate,39.99,24,959.76,Regular,No,0,4.5,26,Tuesday,No,49,30.5,0.00,V010
+2023-02-14,South,205,Electronics,E049,Smart Watch Elite,399.99,3,1199.97,Premium,Yes,5,4.9,35,Tuesday,No,7,20.7,0.00,V001
+2023-02-14,East,307,Grocery,G027,Organic Chips Ultimate,9.99,74,739.26,Regular,No,0,4.2,15,Tuesday,No,149,14.5,0.00,V008
+2023-02-14,West,403,Clothing,C083,Designer Hat Ultimate,69.95,14,979.30,Premium,Yes,10,4.6,18,Tuesday,No,29,29.4,0.00,V002
+2023-02-15,North,104,Home,H029,Kitchen Utensils Ultimate,59.99,16,959.84,Regular,No,0,4.4,27,Wednesday,No,33,19.4,2.99,V003
+2023-02-15,South,201,Beauty,B055,Nail Polish Set Ultimate,69.99,14,979.86,Premium,Yes,15,4.7,34,Wednesday,No,29,31.6,0.00,V010
+2023-02-15,East,302,Electronics,E037,Bluetooth Earbuds Ultimate,149.99,8,1199.92,Premium,No,0,4.8,16,Wednesday,No,17,22.9,0.00,V001
+2023-02-15,West,405,Grocery,G063,Premium Jam Ultimate,15.99,54,863.46,Regular,Yes,5,4.3,19,Wednesday,No,109,16.4,0.00,V008
+2023-02-15,North,102,Clothing,C015,Winter Scarf Ultimate,49.99,19,949.81,Regular,No,0,4.5,26,Wednesday,No,39,26.2,0.00,V002
+2023-02-15,South,204,Home,H054,Coffee Grinder Ultimate,119.95,9,1079.55,Premium,Yes,8,4.7,33,Wednesday,No,19,23.1,3.99,V003
+2023-02-15,East,306,Beauty,B057,Facial Roller Ultimate,49.99,19,949.81,Regular,No,0,4.6,15,Wednesday,No,39,31.2,0.00,V010
+2023-02-15,West,402,Electronics,E038,Wireless Earbuds Ultimate,129.99,9,1169.91,Premium,Yes,10,4.8,20,Wednesday,No,19,20.3,0.00,V001
+2023-02-16,North,101,Grocery,G035,Artisan Oils Ultimate,24.99,36,899.64,Regular,No,0,4.4,25,Thursday,No,73,15.3,0.00,V008
+2023-02-16,South,203,Clothing,C037,Running Shoes Elite,199.99,5,999.95,Premium,Yes,5,4.9,36,Thursday,No,11,27.9,0.00,V002
+2023-02-16,East,301,Home,H041,Blender Elite,249.99,4,999.96,Premium,No,0,4.9,14,Thursday,No,9,20.7,6.99,V003
+2023-02-16,West,404,Beauty,B037,Perfume Collection Ultimate,299.99,3,899.97,Premium,Yes,15,4.9,19,Thursday,No,7,32.7,0.00,V010
+2023-02-16,North,103,Electronics,E027,Headphones Pro Elite,249.99,4,999.96,Premium,No,0,4.9,27,Thursday,No,9,23.4,0.00,V001
+2023-02-16,South,202,Grocery,G011,Premium Candy Ultimate,7.99,86,687.14,Regular,Yes,0,4.1,33,Thursday,No,173,14.8,0.00,V008
+2023-02-16,East,304,Clothing,C049,Business Tie Ultimate,79.95,12,959.40,Premium,No,0,4.5,15,Thursday,No,25,27.6,0.00,V002
+2023-02-16,West,401,Home,H063,Air Fryer Ultimate,199.99,5,999.95,Premium,Yes,8,4.8,20,Thursday,No,11,24.1,5.99,V003
+2023-02-17,North,105,Beauty,B000,Hair Styling Set Ultimate,69.99,14,979.86,Premium,No,0,4.7,26,Friday,No,29,30.3,0.00,V010
+2023-02-17,South,205,Electronics,E051,Gaming Headset Ultimate,229.99,4,919.96,Premium,Yes,5,4.9,35,Friday,No,9,20.8,0.00,V001
+2023-02-17,East,307,Grocery,G039,Organic Coffee Ultimate,19.99,47,939.53,Regular,No,0,4.5,16,Friday,No,95,14.3,0.00,V008
+2023-02-17,West,403,Clothing,C081,Designer Wallet Ultimate,149.95,7,1049.65,Premium,Yes,10,4.8,19,Friday,No,15,29.9,0.00,V002
+2023-02-17,North,104,Home,H031,Cookware Elite,349.99,3,1049.97,Premium,No,0,4.9,25,Friday,No,7,20.9,9.99,V003
+2023-02-17,South,201,Beauty,B053,Hair Serum Ultimate,39.99,24,959.76,Regular,Yes,15,4.3,34,Friday,No,49,31.8,0.00,V010
+2023-02-17,East,302,Electronics,E039,Portable Speaker Ultimate Pro,199.99,5,999.95,Premium,No,0,4.8,15,Friday,No,11,22.8,2.99,V001
+2023-02-17,West,405,Grocery,G067,Premium Cookies Ultimate Pro,15.99,54,863.46,Regular,Yes,5,4.3,20,Friday,No,109,16.5,0.00,V008
+2023-02-18,North,102,Clothing,C011,Winter Coat Ultimate,249.99,4,999.96,Premium,No,0,4.9,27,Saturday,No,9,26.3,0.00,V002
+2023-02-18,South,204,Home,H056,Stand Mixer Ultimate,399.95,2,799.90,Premium,Yes,8,4.9,33,Saturday,No,5,23.3,8.99,V003
+2023-02-18,East,306,Beauty,B049,Face Cream Ultimate,49.99,19,949.81,Regular,No,0,4.7,14,Saturday,No,39,30.8,0.00,V010
+2023-02-18,West,402,Electronics,E044,Wireless Mouse Ultimate,89.99,11,989.89,Premium,Yes,10,4.4,19,Saturday,No,23,19.9,0.00,V001
+2023-02-18,North,101,Grocery,G047,Specialty Chocolate Ultimate,12.99,63,818.37,Regular,No,0,4.3,26,Saturday,No,127,15.2,0.00,V008
+2023-02-18,South,203,Clothing,C035,Athletic Pants Ultimate,99.95,10,999.50,Premium,Yes,5,4.7,35,Saturday,No,21,27.3,0.00,V002
+2023-02-18,East,301,Home,H043,Food Processor Ultimate,229.99,4,919.96,Premium,No,0,4.8,16,Saturday,No,9,20.4,6.99,V003
+2023-02-18,West,404,Beauty,B009,Makeup Brushes Ultimate,69.99,13,909.87,Premium,Yes,15,4.6,19,Saturday,No,27,31.9,0.00,V010
+2023-02-19,North,103,Electronics,E029,Headphones Premium Elite,299.99,3,899.97,Premium,No,0,4.9,25,Sunday,Yes,7,23.5,0.00,V001
+2023-02-19,South,202,Grocery,G091,Premium Nuts Premium Elite,19.99,46,919.54,Regular,Yes,0,4.5,36,Sunday,Yes,93,16.1,0.00,V008
+2023-02-19,East,304,Clothing,C043,Dress Pants Ultimate,119.95,8,959.60,Premium,No,0,4.7,15,Sunday,Yes,17,28.3,0.00,V002
+2023-02-19,West,401,Home,H065,Robot Vacuum Ultimate,449.99,2,899.98,Premium,Yes,8,4.9,20,Sunday,Yes,5,24.7,0.00,V003
+2023-02-19,North,105,Beauty,B000,Body Lotion Ultimate,49.99,19,949.81,Regular,No,0,4.6,27,Sunday,Yes,39,30.9,0.00,V010
+2023-02-19,South,205,Electronics,E053,Smart Watch Elite Pro,499.99,2,999.98,Premium,Yes,5,4.9,33,Sunday,Yes,5,21.1,0.00,V001
+2023-02-19,East,307,Grocery,G023,Organic Snacks Elite,12.99,62,805.38,Regular,No,0,4.3,14,Sunday,Yes,125,14.9,0.00,V008
+2023-02-19,West,403,Clothing,C079,Designer Scarf Ultimate Pro,119.95,8,959.60,Premium,Yes,10,4.8,21,Sunday,Yes,17,30.1,0.00,V002
+2023-02-20,North,104,Home,H033,Kitchen Tools Elite,79.99,12,959.88,Premium,No,0,4.5,26,Monday,No,25,19.8,3.99,V003
+2023-02-20,South,201,Beauty,B059,Nail Care Ultimate Pro,59.99,15,899.85,Premium,Yes,15,4.8,35,Monday,No,31,31.7,0.00,V010
+2023-02-20,East,302,Electronics,E041,Bluetooth Speaker Elite Pro,199.99,5,999.95,Premium,No,0,4.9,15,Monday,No,11,23.1,3.99,V001
+2023-02-20,West,405,Grocery,G059,Premium Coffee Elite Pro,24.99,37,924.63,Regular,Yes,5,4.6,18,Monday,No,75,16.9,0.00,V008
+2023-02-20,North,102,Clothing,C013,Winter Accessories Ultimate,79.99,12,959.88,Premium,No,0,4.6,27,Monday,No,25,26.4,0.00,V002
+2023-02-20,South,204,Home,H058,Coffee Maker Ultimate,299.95,3,899.85,Premium,Yes,8,4.9,34,Monday,No,7,23.5,5.99,V003
+2023-02-20,East,306,Beauty,B059,Eye Serum Ultimate Pro,69.99,13,909.87,Premium,No,0,4.8,16,Monday,No,27,32.1,0.00,V010
+2023-02-20,West,402,Electronics,E042,Wireless Charger Ultimate Pro,89.99,11,989.89,Premium,Yes,10,4.6,19,Monday,No,23,20.9,0.00,V001
+2023-02-21,North,101,Grocery,G031,Artisan Honey Ultimate,26.99,35,944.65,Regular,No,0,4.6,26,Tuesday,No,71,15.7,0.00,V008
+2023-02-21,South,203,Clothing,C035,Running Shorts Ultimate Pro,79.95,12,959.40,Premium,Yes,5,4.8,33,Tuesday,No,25,28.1,0.00,V002
+2023-02-21,East,301,Home,H045,Blender Ultimate Pro,259.99,3,779.97,Premium,No,0,4.9,15,Tuesday,No,7,21.3,5.99,V003
+2023-02-21,West,404,Beauty,B039,Perfume Ultimate Collection,349.99,2,699.98,Premium,Yes,15,5.0,20,Tuesday,No,5,32.9,0.00,V010
+2023-02-21,North,103,Electronics,E031,Headphones Ultimate Collection,349.99,3,1049.97,Premium,No,0,5.0,25,Tuesday,No,7,23.9,0.00,V001
+2023-02-21,South,202,Grocery,G003,Premium Chocolate Ultimate Collection,19.99,47,939.53,Regular,Yes,0,4.7,36,Tuesday,No,95,16.3,0.00,V008
+2023-02-21,East,304,Clothing,C041,Business Shirt Ultimate Elite,119.95,8,959.60,Premium,No,0,4.8,14,Tuesday,No,17,28.2,0.00,V002
+2023-02-21,West,401,Home,H067,Air Purifier Ultimate Elite,299.99,3,899.97,Premium,Yes,8,4.9,19,Tuesday,No,7,24.8,7.99,V003
+2023-02-22,North,105,Beauty,B000,Hair Treatment Ultimate Collection,69.99,13,909.87,Premium,No,0,4.8,27,Wednesday,No,27,30.7,0.00,V010
+2023-02-22,South,205,Electronics,E055,Gaming Mouse Ultimate Elite,199.99,5,999.95,Premium,Yes,5,4.9,33,Wednesday,No,11,21.2,0.00,V001
+2023-02-22,East,307,Grocery,G035,Organic Tea Ultimate Collection,17.99,49,881.51,Regular,No,0,4.6,15,Wednesday,No,99,14.7,0.00,V008
+2023-02-22,West,403,Clothing,C077,Designer Ties Ultimate Collection,149.95,7,1049.65,Premium,Yes,10,4.9,20,Wednesday,No,15,30.2,0.00,V002
+2023-02-22,North,104,Home,H035,Cookware Ultimate Collection,399.99,2,799.98,Premium,No,0,5.0,26,Wednesday,No,5,21.1,9.99,V003
+2023-02-22,South,201,Beauty,B057,Hair Oil Ultimate,49.99,18,899.82,Premium,Yes,15,4.5,35,Wednesday,No,37,31.9,0.00,V010
+2023-02-22,East,302,Electronics,E043,Portable Speaker Ultimate Collection,229.99,4,919.96,Premium,No,0,4.9,16,Wednesday,No,9,23.3,2.99,V001
+2023-02-22,West,405,Grocery,G051,Premium Cookies Ultimate Collection,19.99,46,919.54,Regular,Yes,5,4.5,19,Wednesday,No,93,16.7,0.00,V008
+2023-02-23,North,102,Clothing,C009,Winter Boots Ultimate Collection,299.99,3,899.97,Premium,No,0,5.0,25,Thursday,No,7,26.7,0.00,V002
+2023-02-23,South,204,Home,H060,Kitchen Scale Ultimate,89.95,10,899.50,Premium,Yes,8,4.5,34,Thursday,No,21,22.5,2.99,V003
+2023-02-23,East,306,Beauty,B051,Face Mask Ultimate Collection,69.99,13,909.87,Premium,No,0,4.8,15,Thursday,No,27,30.8,0.00,V010
+2023-02-23,West,402,Electronics,E046,Wireless Keyboard Ultimate Collection,199.99,5,999.95,Premium,Yes,10,4.9,18,Thursday,No,11,20.7,0.00,V001
+2023-02-23,North,101,Grocery,G043,Specialty Tea Ultimate Collection,19.99,47,939.53,Regular,No,0,4.6,27,Thursday,No,95,15.1,0.00,V008
+2023-02-23,South,203,Clothing,C033,Athletic Shoes Ultimate Collection,249.95,4,999.80,Premium,Yes,5,5.0,33,Thursday,No,9,28.3,0.00,V002
+2023-02-23,East,301,Home,H047,Food Processor Ultimate Collection,299.99,3,899.97,Premium,No,0,4.9,14,Thursday,No,7,21.2,6.99,V003
+2023-02-23,West,404,Beauty,B007,Makeup Set Ultimate Collection,199.99,5,999.95,Premium,Yes,15,4.9,21,Thursday,No,11,32.6,0.00,V010
+2023-02-24,North,103,Electronics,E033,Headphones Ultimate Pro Elite,399.99,2,799.98,Premium,No,0,5.0,26,Friday,No,5,23.7,0.00,V001
+2023-02-24,South,202,Grocery,G087,Premium Granola Ultimate Collection,21.99,42,923.58,Regular,Yes,0,4.7,35,Friday,No,85,16.2,0.00,V008
+2023-02-24,East,304,Clothing,C037,Dress Shoes Ultimate Collection,249.95,4,999.80,Premium,No,0,4.9,15,Friday,No,9,28.5,0.00,V002
+2023-02-24,West,401,Home,H069,Smart Thermostat Ultimate Collection,299.99,3,899.97,Premium,Yes,8,5.0,18,Friday,No,7,24.9,0.00,V003
+2023-02-24,North,105,Beauty,B000,Body Scrub Ultimate Collection,59.99,15,899.85,Premium,No,0,4.8,25,Friday,No,31,31.3,0.00,V010
+2023-02-24,South,205,Electronics,E057,Smart Watch Ultimate Collection,499.99,2,999.98,Premium,Yes,5,5.0,36,Friday,No,5,21.5,0.00,V001
+2023-02-24,East,307,Grocery,G019,Organic Chips Ultimate Collection,14.99,58,869.42,Regular,No,0,4.4,14,Friday,No,117,14.8,0.00,V008
+2023-02-24,West,403,Clothing,C075,Designer Hat Ultimate Collection,99.95,9,899.55,Premium,Yes,10,4.8,19,Friday,No,19,30.5,0.00,V002
+2023-02-25,North,104,Home,H037,Kitchen Utensils Ultimate Collection,79.99,11,879.89,Premium,No,0,4.6,27,Saturday,No,23,20.1,2.99,V003
+2023-02-25,South,201,Beauty,B061,Nail Polish Set Ultimate Collection,89.99,10,899.90,Premium,Yes,15,4.9,33,Saturday,No,21,32.1,0.00,V010
+2023-02-25,East,302,Electronics,E045,Bluetooth Earbuds Ultimate Collection,199.99,5,999.95,Premium,No,0,4.9,15,Saturday,No,11,23.5,0.00,V001
+2023-02-25,West,405,Grocery,G055,Premium Jam Ultimate Collection,19.99,45,899.55,Regular,Yes,5,4.6,20,Saturday,No,91,16.8,0.00,V008
+2023-02-25,North,102,Clothing,C007,Winter Scarf Ultimate Collection,69.99,12,839.88,Premium,No,0,4.7,26,Saturday,No,25,26.9,0.00,V002
+2023-02-25,South,204,Home,H062,Coffee Grinder Ultimate Collection,149.95,6,899.70,Premium,Yes,8,4.8,35,Saturday,No,13,23.7,3.99,V003
+2023-02-25,East,306,Beauty,B061,Facial Roller Ultimate Collection,69.99,13,909.87,Premium,No,0,4.8,16,Saturday,No,27,31.7,0.00,V010
+2023-02-25,West,402,Electronics,E046,Wireless Earbuds Ultimate Collection,149.99,6,899.94,Premium,Yes,10,4.9,19,Saturday,No,13,20.8,0.00,V001
+2023-02-26,North,101,Grocery,G027,Artisan Oils Ultimate Collection,29.99,30,899.70,Regular,No,0,4.7,25,Sunday,Yes,61,15.9,0.00,V008
+2023-02-26,South,203,Clothing,C027,Running Shoes Ultimate Collection,249.99,3,749.97,Premium,Yes,5,5.0,34,Sunday,Yes,7,28.5,0.00,V002
+2023-02-26,East,301,Home,H049,Blender Ultimate Collection,299.99,3,899.97,Premium,No,0,5.0,15,Sunday,Yes,7,21.5,5.99,V003
+2023-02-26,West,404,Beauty,B041,Perfume Ultimate Luxury Collection,499.99,1,499.99,Premium,Yes,15,5.0,20,Sunday,Yes,3,33.1,0.00,V010
+2023-02-26,North,103,Electronics,E035,Headphones Ultimate Luxury,499.99,2,999.98,Premium,No,0,5.0,27,Sunday,Yes,5,24.1,0.00,V001
+2023-02-26,South,202,Grocery,G000,Premium Chocolate Luxury Collection,24.99,36,899.64,Premium,Yes,0,4.8,33,Sunday,Yes,73,16.5,0.00,V008
+2023-02-26,East,304,Clothing,C033,Business Tie Ultimate Luxury,149.95,6,899.70,Premium,No,0,4.9,14,Sunday,Yes,13,28.7,0.00,V002
+2023-02-26,West,401,Home,H071,Air Fryer Ultimate Luxury,349.99,2,699.98,Premium,Yes,8,5.0,21,Sunday,Yes,5,25.1,5.99,V003
+2023-02-27,North,105,Beauty,B000,Hair Styling Set Ultimate Luxury,99.99,9,899.91,Premium,No,0,4.9,26,Monday,No,19,31.5,0.00,V010
+2023-02-27,South,205,Electronics,E059,Gaming Headset Ultimate Luxury,299.99,3,899.97,Premium,Yes,5,5.0,35,Monday,No,7,21.7,0.00,V001
+2023-02-27,East,307,Grocery,G031,Organic Coffee Ultimate Luxury,24.99,36,899.64,Premium,No,0,4.8,15,Monday,No,73,15.2,0.00,V008
+2023-02-27,West,403,Clothing,C073,Designer Wallet Ultimate Luxury,199.95,4,799.80,Premium,Yes,10,4.9,18,Monday,No,9,30.7,0.00,V002
+2023-02-27,North,104,Home,H039,Cookware Ultimate Luxury,499.99,1,499.99,Premium,No,0,5.0,27,Monday,No,3,21.7,9.99,V003
+2023-02-27,South,201,Beauty,B057,Hair Serum Ultimate Luxury,69.99,12,839.88,Premium,Yes,15,4.8,34,Monday,No,25,32.3,0.00,V010
+2023-02-27,East,302,Electronics,E047,Portable Speaker Ultimate Luxury,299.99,3,899.97,Premium,No,0,5.0,16,Monday,No,7,23.9,2.99,V001
+2023-02-27,West,405,Grocery,G063,Premium Cookies Ultimate Luxury,24.99,36,899.64,Regular,Yes,5,4.7,19,Monday,No,73,17.1,0.00,V008
+2023-02-28,North,102,Clothing,C003,Winter Coat Ultimate Luxury,399.99,2,799.98,Premium,No,0,5.0,26,Tuesday,No,5,27.1,0.00,V002
+2023-02-28,South,204,Home,H064,Stand Mixer Ultimate Luxury,499.95,1,499.95,Premium,Yes,8,5.0,33,Tuesday,No,3,23.9,8.99,V003
+2023-02-28,East,306,Beauty,B053,Face Cream Ultimate Luxury,79.99,11,879.89,Premium,No,0,4.9,15,Tuesday,No,23,31.3,0.00,V010
+2023-02-28,West,402,Electronics,E048,Wireless Mouse Ultimate Luxury,119.99,7,839.93,Premium,Yes,10,4.8,20,Tuesday,No,15,21.3,0.00,V001
+2023-02-28,North,101,Grocery,G027,Specialty Chocolate Ultimate Luxury,19.99,45,899.55,Premium,No,0,4.7,25,Tuesday,No,91,15.5,0.00,V008
+2023-02-28,South,203,Clothing,C027,Athletic Pants Ultimate Luxury,149.95,6,899.70,Premium,Yes,5,4.9,36,Tuesday,No,13,28.9,0.00,V002
+2023-02-28,East,301,Home,H051,Food Processor Ultimate Luxury,399.99,2,799.98,Premium,No,0,5.0,14,Tuesday,No,5,21.9,6.99,V003
+2023-02-28,West,404,Beauty,B005,Makeup Brushes Ultimate Luxury,99.99,9,899.91,Premium,Yes,15,4.9,19,Tuesday,No,19,32.8,0.00,V010

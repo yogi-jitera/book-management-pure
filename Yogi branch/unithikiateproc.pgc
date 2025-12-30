@@ -1,0 +1,336 @@
+/* G-UALC Plus Application     (C)2016 TOYOTA MOTOR CORPORATION All rights reserved.
+ **************************************************************************************
+ * Program File ID : BH0010
+ * Program File Name : unithikiateproc.pgc
+ **************************************************************************************
+ * $Revision:   1.1  $
+ * $Modtime:   2024/06/11 10:58:40  $
+ **************************************************************************************
+ 
+ * Summary
+ *      ユニット引当マスタ反映
+ *      ユニット引当マスタ反映のデータの取得・更新を行う。
+ *
+ *************************************************************************************
+ */
+/* ------------------------------------------------------------ */
+/*  Ｉ Ｎ Ｃ Ｌ Ｕ Ｄ Ｅ 定 義 */
+/* ------------------------------------------------------------ */
+#include "com_gualc.h"
+#include "com_gualc_length.h"
+
+/* ------------------------------------------------------------ */
+/*  Ｄ Ｅ Ｆ Ｉ Ｎ Ｅ 定 義 */
+/* ------------------------------------------------------------ */
+#define SQLCA_STORAGE_CLASS static
+EXEC SQL	INCLUDE sqlca;
+
+/* ------------------------------------------------------------ */
+/*  構 造 体 定 義 */
+/* ------------------------------------------------------------ */
+EXEC SQL INCLUDE Pcom_dbstr;				/*  ＤＢ構造ヘッダファイル */
+EXEC SQL BEGIN DECLARE SECTION;
+short	ind;								/*  標識変数 */
+EXEC SQL END DECLARE SECTION;
+
+/* ------------------------------------------------------------ */
+/*  関 数 宣 言 */
+/* ------------------------------------------------------------ */
+
+/* ------------------------------------------------------------ */
+/*  グ ロ ー バ ル 宣 言 */
+/* ------------------------------------------------------------ */
+
+/* ------------------------------------------------------------ */
+/*  機能		：マスタ反映エラー情報登録 */
+/*  */
+/*  機能説明	：マスタ反映エラー情報テーブルにデータを登録する */
+/*  */
+/*  引数		：マスタ反映エラー情報構造体[I N] */
+/*  */
+/*  返り値	：処理結果(0:正常 その他:異常(SQLコード)) */
+/*  */
+/*  備考		： */
+/* ------------------------------------------------------------ */
+int InsMasterErrorInfo( TAGTRMASTERERRINFO *ptParam )
+{
+	EXEC SQL BEGIN DECLARE SECTION;
+	TAGTRMASTERERRINFO	stMstErrInfo;			/*  マスタ反映エラー情報構造体 */
+	int		iSeqno;
+	EXEC SQL END DECLARE SECTION;
+
+	EXEC SQL WHENEVER SQLERROR CONTINUE;
+
+	/*  初期化 */
+	memset( &stMstErrInfo, 0x00,	sizeof(TAGTRMASTERERRINFO) );
+	memcpy( &stMstErrInfo, ptParam, sizeof(TAGTRMASTERERRINFO) );
+
+
+	/*  データ登録 */
+	EXEC SQL
+		INSERT INTO TR_MASTER_ERR_INFO
+		(
+			 SEQ_NO
+			,PRCS_TIME
+			,PRCS_NAME
+			,PART_NO
+			,CMNT_NO
+			,VAR_MSG_01
+			,VAR_MSG_02
+			,VAR_MSG_03
+			,VAR_MSG_04
+			,VAR_MSG_05
+			,VAR_MSG_06
+			,VAR_MSG_07
+			,VAR_MSG_08
+			,VAR_MSG_09
+			,VAR_MSG_10
+		)
+		VALUES(
+			 nextval('seq_tr_master_err_info01')
+			,current_timestamp
+			,:stMstErrInfo.prcs_name
+			,:stMstErrInfo.part_no
+			,:stMstErrInfo.cmnt_no
+			,:stMstErrInfo.var_msg_01
+			,:stMstErrInfo.var_msg_02
+			,:stMstErrInfo.var_msg_03
+			,:stMstErrInfo.var_msg_04
+			,:stMstErrInfo.var_msg_05
+			,:stMstErrInfo.var_msg_06
+			,:stMstErrInfo.var_msg_07
+			,:stMstErrInfo.var_msg_08
+			,:stMstErrInfo.var_msg_09
+			,:stMstErrInfo.var_msg_10
+		)
+		;
+
+	return( sqlca.sqlcode );
+}
+
+
+/* ------------------------------------------------------------ */
+/*  機能		：ユニット引当マスタ削除（Truncate） */
+/*  */
+/*  機能説明	：ユニット引当マスタテーブルをTruncateする */
+/*  */
+/*  引数		：なし */
+/*  */
+/*  返り値	：処理結果(0:正常 その他:異常(SQLコード)) */
+/*  */
+/*  備考		： */
+/* ------------------------------------------------------------ */
+int TruncateUnitHikiate()
+{
+	EXEC SQL WHENEVER SQLERROR CONTINUE;
+
+	/*  データ削除 */
+	EXEC SQL
+		TRUNCATE TABLE TM_UNIT_HIKIATE
+		;
+
+	return( sqlca.sqlcode );
+}
+
+
+/* ------------------------------------------------------------ */
+/*  機能		：ユニット引当マスタ削除 */
+/*  */
+/*  機能説明	：ユニット引当マスタテーブルのデータを全て削除する */
+/*  */
+/*  引数		：なし */
+/*  */
+/*  返り値	：処理結果(0:正常 その他:異常(SQLコード)) */
+/*  */
+/*  備考		： */
+/* ------------------------------------------------------------ */
+int DeleteAllUnitHikiate()
+{
+	EXEC SQL WHENEVER SQLERROR CONTINUE;
+
+	/*  データ削除 */
+	EXEC SQL
+		DELETE FROM TM_UNIT_HIKIATE
+		;
+
+	return( sqlca.sqlcode );
+}
+
+
+/* ------------------------------------------------------------ */
+/*  機能		：ユニット引当マスタ登録 */
+/*  */
+/*  機能説明	：ユニット引当マスタテーブルにデータを登録する */
+/*  */
+/*  引数		：ユニット引当テーブル構造体[I N] */
+/*  */
+/*  返り値	：処理結果(0:正常 その他:異常(SQLコード)) */
+/*  */
+/*  備考		： */
+/* ------------------------------------------------------------ */
+int InsUnitHikiate( TAGTMUNITHIKIATE *ptParam )
+{
+	EXEC SQL BEGIN DECLARE SECTION;
+	TAGTMUNITHIKIATE	stUnitHikiate;			/*  ユニット引当テーブル構造体 */
+	unsigned	int 	szRet		;	/*	ver2.0	add	*/
+	unsigned	char	*p = NULL	;	/*	ver2.0	add	*/
+	char cFactoryCmnt[21];
+	EXEC SQL END DECLARE SECTION;
+	int b_flg =0;
+
+
+	/*  初期化 */
+	memset( &stUnitHikiate, 0x00,	sizeof(TAGTMUNITHIKIATE) );
+	memcpy( &stUnitHikiate, ptParam, sizeof(TAGTMUNITHIKIATE) );
+
+	memset( cFactoryCmnt, 0x00, sizeof(cFactoryCmnt) );	
+	memcpy( cFactoryCmnt, stUnitHikiate.cFactoryCmnt , 20 );
+//printf("A[%d] [%s][%d]-[%s][%d]\n",b_flg,cFactoryCmnt,sizeof(cFactoryCmnt),stUnitHikiate.cFactoryCmnt,sizeof(stUnitHikiate.cFactoryCmnt));
+
+	/*	変換元データをbytea型にエスケープする	*/
+	p = PQescapeBytea( (const unsigned char*)(cFactoryCmnt), 20, (size_t*)(&szRet) )	;
+
+	/*	ver3.0	Add	Start	*/
+	memcpy( &stUnitHikiate, ptParam, sizeof(TAGTMUNITHIKIATE) );
+	/*	ver3.0	Add	End	*/
+	
+	EXEC SQL
+		SAVEPOINT my_savepoint ;
+
+	EXEC SQL
+		INSERT INTO TM_UNIT_HIKIATE
+		(
+			 USER_CODE
+			,CFC
+			,GRP_INDEX
+			,SMS_PRNT_PART_NO
+			,SMS_PRNT_PART_SFX
+			,SMS_CHILD_PART_NO
+			,SMS_CHILD_PART_SFX
+			,SMS_QTY
+			,PSMS_QTY
+			,HIKIATE_QTY
+			,SELECTIVITY
+			,CLR_CMNT_18_TYPE
+			,AC
+			,RTG_CHECK
+			,CTL_RTG
+			,RTG_POSITION
+			,PROD_PRCS_RTG_01
+			,PROD_PRCS_RTG_02
+			,PROD_PRCS_RTG_03
+			,PROD_PRCS_RTG_04
+			,PROD_PRCS_RTG_05
+			,PROD_PRCS_RTG_06
+			,PROD_PRCS_RTG_07
+			,PROD_PRCS_RTG_08
+			,PROD_PRCS_RTG_09
+			,PROD_PRCS_RTG_10
+			,PROD_PRCS_RTG_11
+			,PROD_PRCS_RTG_12
+			,PROD_PRCS_RTG_13
+			,PROD_PRCS_RTG_14
+			,FINAL_RTG
+			,ECI_FROM
+			,ECI_TO
+			,HS
+			,TC_FROM
+			,TC_TO
+			,SOURCE_CODE
+			,DOCK_IHRTG
+			,ID_LINE
+			,REP_PART_NO_ID
+			,REP_PART_NO
+			,REP_PART_NO_SFX
+			,REP_PART_NO_QTY
+			,PAST_MODEL_FLG
+			,CONST_FLG
+			,REP_CFC
+			,RGST_PC_APRVL_FROM
+			,RGST_PC_APRVL_TO
+			,CREATE_DATE
+			,UPDATE_DATE
+			,UPDATE_ID
+			,CMNT	
+		)
+		VALUES(
+			 :stUnitHikiate.cUserCode
+			,:stUnitHikiate.cSyasyuCode
+			,:stUnitHikiate.cShiyoubui
+			,:stUnitHikiate.cOyaHinban
+			,:stUnitHikiate.cOyaRuibetu
+			,:stUnitHikiate.cKoHinban
+			,:stUnitHikiate.cKoRuibetu
+			,:stUnitHikiate.cSmsQty
+			,:stUnitHikiate.cPSmsQty
+			,:stUnitHikiate.cHikiQty
+			,:stUnitHikiate.cSentaku
+			,:stUnitHikiate.cCom18UmuKbn
+			,:stUnitHikiate.cTaisyogaiKbn
+			,:stUnitHikiate.cKtChk
+			,:stUnitHikiate.cKanriKt
+			,:stUnitHikiate.cKtKigo
+			,:stUnitHikiate.cJiKt01
+			,:stUnitHikiate.cJiKt02
+			,:stUnitHikiate.cJiKt03
+			,:stUnitHikiate.cJiKt04
+			,:stUnitHikiate.cJiKt05
+			,:stUnitHikiate.cJiKt06
+			,:stUnitHikiate.cJiKt07
+			,:stUnitHikiate.cJiKt08
+			,:stUnitHikiate.cJiKt09
+			,:stUnitHikiate.cJiKt10
+			,:stUnitHikiate.cJiKt11
+			,:stUnitHikiate.cJiKt12
+			,:stUnitHikiate.cJiKt13
+			,:stUnitHikiate.cJiKt14
+			,:stUnitHikiate.cOyaKt
+			,:stUnitHikiate.cSeppenK
+			,:stUnitHikiate.cSeppenM
+			,:stUnitHikiate.cShinkyuu
+			,:stUnitHikiate.cTcK
+			,:stUnitHikiate.cTcM
+			,:stUnitHikiate.cNaigai
+			,:stUnitHikiate.cHikiSyogo
+			,:stUnitHikiate.cIdLine
+			,:stUnitHikiate.cDaihyoKbn
+			,:stUnitHikiate.cDaihyoHin
+			,:stUnitHikiate.cDaihyoRui
+			,:stUnitHikiate.cDaihyoQty
+			,:stUnitHikiate.cOldFlg
+			,:stUnitHikiate.cSeiyakuUmu
+			,:stUnitHikiate.cDaihyoSyasyu
+			,:stUnitHikiate.cTourokuK
+			,:stUnitHikiate.cTourokuM
+			,:stUnitHikiate.cSakuseiTime
+			,:stUnitHikiate.cKoushinTime
+			,:stUnitHikiate.cKoushinId
+			,convert_from( decode( :p, 'escape') , 'EUC_JP' )
+		)
+		;
+		
+
+	/*	ver2.0	Add	Start	*/
+	if( p!=NULL )	{
+		PQfreemem(p)	;
+	}
+	/*	ver2.0	Add	End	*/
+
+
+	if( sqlca.sqlcode!=0 )	{
+printf("[%d][%s]\n",sqlca.sqlcode, sqlca.sqlstate );
+		if( sqlca.sqlcode == SQLDBLDATA)	{
+			EXEC SQL
+			 ROLLBACK TO SAVEPOINT my_savepoint;
+		}else{
+WriteMsg( "BH0010", 0, __FILE__, __LINE__, sqlca.sqlcode, sqlca.sqlstate );
+		}
+	}else{	
+		EXEC SQL
+			RELEASE SAVEPOINT my_savepoint;
+	}					
+
+
+
+	return( sqlca.sqlcode );
+}

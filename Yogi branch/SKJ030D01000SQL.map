@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration [
+<!ELEMENT configuration (appsettings)>
+<!ATTLIST configuration 
+  version CDATA #REQUIRED
+  fileType CDATA #REQUIRED
+  comment CDATA #REQUIRED
+  xml:lang CDATA #REQUIRED
+>
+<!ELEMENT appsettings (sqls+)>
+<!ELEMENT sqls (id,sql,comment)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT sql (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ATTLIST comment xml:space (default|preserve) 'preserve'>
+]>
+<configuration version="4.00" fileType="SQL.map" comment="納品検収状況照会" xml:lang="ja-JP">
+  <appsettings>
+    <sqls>
+      <id>S010</id>
+      <sql>SELECT K.VALUE1
+      ,K.KMK_KBN
+  FROM M_KMKKBNCD K
+ WHERE K.KMK_KBN = '10'
+   AND K.KMK_CD = '0'</sql>
+      <comment>項目区分コードマスタから納品検収状況表示期間を取得する</comment>
+    </sqls>
+  </appsettings>
+</configuration>

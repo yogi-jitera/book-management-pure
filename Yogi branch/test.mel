@@ -1,0 +1,3 @@
+// English: Maya Embedded Language script
+// 日本語: MayaのMELスクリプトです
+print("Hello from MEL");
