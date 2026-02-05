@@ -30,7 +30,7 @@ A RESTful API for book management, built with Node.js, Express, and MongoDB.
 │-- .env                    # Environment settings
 ```
 
-## 📌 Prerequisites
+## 📌 How To Use It.
 
 1. **Install Node.js**: [Download Node.js](https://nodejs.org/)
 2. **Install MongoDB** (locally or use [MongoDB Atlas](https://www.mongodb.com/atlas))
